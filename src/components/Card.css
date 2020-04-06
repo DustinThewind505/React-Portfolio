@@ -8,3 +8,7 @@ section {
   section a:hover {
     color: dodgerblue;
   }
+
+  section div {
+      width: 33%;
+  }

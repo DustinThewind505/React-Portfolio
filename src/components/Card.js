@@ -4,13 +4,14 @@ import axios from "axios";
 import './Card.css'
 
 const Card = props => {
-    const [githubData, setGithubData] = useState([])
+    const [githubData, setGithubData] = useState([]);
+    const [repoData, setRepoData] = useState([]);
 
     useEffect(() => {
 
         axios.get(`https://api.github.com/users/DustinThewind505`)
             .then(response => {
-                console.log(response.data);
+                console.log("Oi Oi Oi");
                 setGithubData(response.data)
             })
             .catch(error => console.error("axios error"))
@@ -18,12 +19,26 @@ const Card = props => {
 
     }, [])
 
+    useEffect(() => {
+
+        axios.get(`https://api.github.com/users/DustinThewind505/followers`)
+        .then(response => {
+            console.log(response);
+            setRepoData(response)
+        })
+
+
+    }, [])
+
     return (
         <section key={githubData.id}>
             <div>
+                <img src="https://dustinthewind505.github.io/images/github.png" alt="Github logo"/>
+            </div>
+            <div>
                 <h3>{githubData.name}</h3>
-                <img src={githubData.avatar_url} alt="github profile picture"/>
-                <p>Portfolio: <a href={githubData.blog} target="_blank">{githubData.blog}</a></p>
+                <img src={githubData.avatar_url} alt="github profile"/>
+                <p>Portfolio: <a href={githubData.blog} target="_blank" rel="noopener noreferrer">{githubData.blog}</a></p>
             </div>
             <div>
                 <h4>{githubData.login}</h4>
