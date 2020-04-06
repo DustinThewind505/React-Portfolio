@@ -1,0 +1,10 @@
+section {
+    width: 100%;
+    background-color: crimson;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  section a:hover {
+    color: dodgerblue;
+  }

@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import axios from "axios";
 
+import './Card.css'
+
 const Card = props => {
     const [githubData, setGithubData] = useState([])
 
@@ -20,8 +22,8 @@ const Card = props => {
         <section key={githubData.id}>
             <div>
                 <h3>{githubData.name}</h3>
-                <img src={githubData.avatar_url} />
-                <p>Portfolio: {githubData.blog}</p>
+                <img src={githubData.avatar_url} alt="github profile picture"/>
+                <p>Portfolio: <a href={githubData.blog} target="_blank">{githubData.blog}</a></p>
             </div>
             <div>
                 <h4>{githubData.login}</h4>
