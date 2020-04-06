@@ -7,20 +7,34 @@ const Card = props => {
     useEffect(() => {
 
         axios.get(`https://api.github.com/users/DustinThewind505`)
-        .then(response => {
-            console.log(response.data);
-            setGithubData("ello poppet")
-        })
-        .catch(error => console.error("axios error"))
+            .then(response => {
+                console.log(response.data);
+                setGithubData(response.data)
+            })
+            .catch(error => console.error("axios error"))
 
 
     }, [])
 
     return (
-        <div>
-            <h1>Ello Poppet</h1>
+        <section key={githubData.id}>
+            <div>
+                <h3>{githubData.name}</h3>
+                <img src={githubData.avatar_url} />
+                <p>Portfolio: {githubData.blog}</p>
+            </div>
+            <div>
+                <h4>{githubData.login}</h4>
+                <h5>{githubData.bio}</h5>
+                <h6>{githubData.location}</h6>
+                <p>Followers: {githubData.followers}</p>
+                <p>Following: {githubData.following}</p>
+                <p>Repos: {githubData.public_repos}</p>
+                <p>Joined: {githubData.created_at}</p>
+                <p>Last Updated: {githubData.updated_at}</p>
+            </div>
 
-        </div>
+        </section>
     )
 }
 
