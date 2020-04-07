@@ -4,9 +4,9 @@ const Technologies = () => {
 
 
     return(
-        <section>
+        <section className="technologies">
            <div>
-               <h3>Technologies Poppet</h3>
+               <h3>Technologies</h3>
                <p>I have experience building personal </p>
            </div>
            <div>

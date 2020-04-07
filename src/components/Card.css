@@ -12,3 +12,13 @@ section {
   section div {
       width: 33%;
   }
+
+  .technologies {
+    background-color: black;
+    color: white;
+  }
+
+  .technologies div {
+    background-color: orchid;
+    color: white;
+  }
