@@ -1,7 +1,7 @@
 import React, { useState, useEffect, Fragment } from 'react';
 import axios from "axios";
 
-import './Card.css'
+
 
 const Card = props => {
     const [githubData, setGithubData] = useState([]);

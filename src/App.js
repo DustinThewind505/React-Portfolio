@@ -6,7 +6,7 @@ import Technologies from './components/Technologies';
 import Card from './components/Card';
 import Footer from './components/Footer'
 
-import './App.css';
+import './css/index.css';
 
 function App() {
   return (
