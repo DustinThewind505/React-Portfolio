@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Header from './components/Header';
+import Technologies from './components/Technologies';
 import Card from './components/Card';
 import Footer from './components/Footer'
 
@@ -10,6 +11,7 @@ function App() {
   return (
     <div className="App">
       <Header/>
+      <Technologies />
         <Card />
       <Footer />
     </div>
