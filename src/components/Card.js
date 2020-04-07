@@ -3,7 +3,7 @@ import axios from "axios";
 
 
 
-const Card = props => {
+const Card = () => {
     const [githubData, setGithubData] = useState([]);
     const [repoData, setRepoData] = useState([]);
 
@@ -33,7 +33,7 @@ const Card = props => {
 
     return (
         <Fragment>
-            <section key={githubData.id}>
+            <section key={githubData.id} className="github-section">
                 <div>
                     <img src="https://dustinthewind505.github.io/images/github.png" alt="Github logo" />
                 </div>

@@ -20,32 +20,21 @@ body section a:hover {
 }
 .App-header {
   background-color: firebrick;
-  min-height: 60vh;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
-.App {
-  text-align: center;
-}
-.App .App-logo {
+.App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-.App .technologies {
-  background-color: black;
-  color: white;
-}
-.App .technologies div {
-  width: 33%;
-  background-color: orchid;
-  color: white;
-}
 @media (prefers-reduced-motion: no-preference) {
-  .App .App-logo {
+  .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
@@ -56,4 +45,34 @@ body section a:hover {
   to {
     transform: rotate(360deg);
   }
+}
+.App {
+  text-align: center;
+}
+.App .about-section {
+  flex-direction: column;
+  align-items: center;
+}
+.App .about-section div {
+  background-color: papayawhip;
+  width: 95%;
+  margin: 2% 0;
+  display: flex;
+  flex-direction: row;
+}
+.App .about-section h1 {
+  padding: 1%;
+}
+.App .technologies {
+  background-color: black;
+  color: white;
+}
+.App .technologies div {
+  width: 33%;
+  background-color: orchid;
+  color: white;
+}
+.App .github-section div {
+  width: 30%;
+  background-color: blue;
 }

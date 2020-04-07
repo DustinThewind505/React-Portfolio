@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 
 import Header from './components/Header';
 import About from './components/About';
@@ -10,13 +10,15 @@ import './css/index.css';
 
 function App() {
   return (
-    <div className="App">
-      <Header/>
-      <About />
-      <Technologies />
+    <Fragment>
+      <Header />
+      <div className="App">
+        <About />
+        <Technologies />
         <Card />
+      </div>
       <Footer />
-    </div>
+    </Fragment>
   );
 }
 
