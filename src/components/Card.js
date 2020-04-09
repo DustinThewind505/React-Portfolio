@@ -51,15 +51,23 @@ const Card = () => {
                     <p>Repos: {githubData.public_repos}</p>
                     <p>Joined: {githubData.created_at}</p>
                     <p>Last Updated: {githubData.updated_at}</p>
+                    <div>
+                        {repoData.map(element => (
+                            <p>{element.login}</p>
+                        ))}
+                    </div>
                 </div>
             </section>
             <section>
                 <div>
                     {repoData.map(element => (
-                        <p>{element.login}</p>
+                        <div className="followers" key={element.id}>
+                            <p>{element.login}</p>
+                            <img src={element.avatar_url} alt={element.login} />
+                        </div>
                     ))}
                 </div>
-    </section>
+            </section>
         </Fragment>
     )
 }
