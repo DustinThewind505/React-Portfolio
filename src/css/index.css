@@ -76,3 +76,20 @@ body section a:hover {
   width: 30%;
   background-color: blue;
 }
+.App .github-section .followers-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.App .github-section .followers {
+  width: 50%;
+  background-color: purple;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.App .github-section .followers img {
+  width: 30%;
+  margin: 5% 0;
+  border-radius: 100px;
+}
