@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  border: 1px solid black;
+  border: 0;
 }
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
@@ -66,24 +66,51 @@ body section a:hover {
 .App .technologies {
   background-color: black;
   color: white;
+  padding: 2% 0%;
 }
 .App .technologies div {
-  width: 33%;
+  width: 45%;
   background-color: orchid;
   color: white;
 }
 .App .github-section h4 {
+  width: 100%;
   font-size: 1.8rem;
 }
 .App .github-section h5 {
+  width: 100%;
   font-size: 1rem;
 }
 .App .github-section h6 {
+  width: 100%;
   font-size: 1rem;
+}
+.App .github-section p {
+  text-align: start;
+  border-bottom: 2px solid black;
+}
+.App .github-section .github-info-p1 {
+  width: 51%;
+}
+.App .github-section .github-info-p2 {
+  width: 56%;
+}
+.App .github-section .github-info-p3 {
+  width: 61%;
+}
+.App .github-section .github-info-p4 {
+  width: 66%;
+}
+.App .github-section .github-info-p5 {
+  width: 71%;
+  margin-bottom: 1%;
 }
 .App .github-section div {
   width: 30%;
   background-color: blue;
+}
+.App .github-section .github-profile img {
+  width: 50%;
 }
 .App .github-section .followers-container {
   width: 100%;
@@ -96,6 +123,7 @@ body section a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  border: 1px solid black;
 }
 .App .github-section .followers img {
   width: 30%;
@@ -107,4 +135,5 @@ body section a:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: flex-end;
 }

@@ -11,6 +11,7 @@ const Card = () => {
 
         axios.get(`https://api.github.com/users/DustinThewind505`)
             .then(response => {
+                console.log(response);
                 console.log("Oi Oi Oi");
                 setGithubData(response.data)
             })
@@ -37,7 +38,7 @@ const Card = () => {
                 <div>
                     <img src="https://dustinthewind505.github.io/images/github.png" alt="Github logo" />
                 </div>
-                <div>
+                <div className="github-profile">
                     <h3>{githubData.name}</h3>
                     <img src={githubData.avatar_url} alt="github profile" />
                     <p>Portfolio: <a href={githubData.blog} target="_blank" rel="noopener noreferrer">{githubData.blog}</a></p>
@@ -46,11 +47,11 @@ const Card = () => {
                     <h4>{githubData.login}</h4>
                     <h5>{githubData.bio}</h5>
                     <h6>{githubData.location}</h6>
-                    <p>Followers: {githubData.followers}</p>
-                    <p>Following: {githubData.following}</p>
-                    <p>Repos: {githubData.public_repos}</p>
-                    <p>Joined: {githubData.created_at}</p>
-                    <p>Last Updated: {githubData.updated_at}</p>
+                    <p className="github-info-p1">Followers: {githubData.followers}</p>
+                    <p className="github-info-p2">Following: {githubData.following}</p>
+                    <p className="github-info-p3">Repos: {githubData.public_repos}</p>
+                    <p className="github-info-p4">Joined: {githubData.created_at}</p>
+                    <p className="github-info-p5">Last Updated: {githubData.updated_at}</p>
                     <div className="followers-container">
                         {repoData.map(element => (
                             <div className="followers" key={element.id}>
