@@ -72,6 +72,15 @@ body section a:hover {
   background-color: orchid;
   color: white;
 }
+.App .github-section h4 {
+  font-size: 1.8rem;
+}
+.App .github-section h5 {
+  font-size: 1rem;
+}
+.App .github-section h6 {
+  font-size: 1rem;
+}
 .App .github-section div {
   width: 30%;
   background-color: blue;
@@ -82,7 +91,7 @@ body section a:hover {
   flex-wrap: wrap;
 }
 .App .github-section .followers {
-  width: 50%;
+  width: 33.333%;
   background-color: purple;
   display: flex;
   align-items: center;
@@ -92,4 +101,10 @@ body section a:hover {
   width: 30%;
   margin: 5% 0;
   border-radius: 100px;
+}
+.App .github-section .github-info {
+  background-color: rosybrown;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }

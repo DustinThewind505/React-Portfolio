@@ -42,7 +42,7 @@ const Card = () => {
                     <img src={githubData.avatar_url} alt="github profile" />
                     <p>Portfolio: <a href={githubData.blog} target="_blank" rel="noopener noreferrer">{githubData.blog}</a></p>
                 </div>
-                <div>
+                <div className="github-info">
                     <h4>{githubData.login}</h4>
                     <h5>{githubData.bio}</h5>
                     <h6>{githubData.location}</h6>
@@ -60,17 +60,6 @@ const Card = () => {
                         ))}
                     </div>
                 </div>
-            </section>
-            <section className="followers">
-
-                {repoData.map(element => (
-                    <div key={element.id}>
-                        <p>{element.login}</p>
-                        <p>BLAH!!</p>
-                        <img src={element.avatar_url} alt={element.login} />
-                    </div>
-                ))}
-
             </section>
         </Fragment>
     )
