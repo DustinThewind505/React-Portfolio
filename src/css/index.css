@@ -50,32 +50,35 @@ body section a:hover {
   text-align: center;
 }
 .App .about-section {
-  flex-direction: column;
-  align-items: center;
+  width: 80%;
+  margin: 3% auto;
+  padding: 2%;
+  background-color: yellow;
 }
-.App .about-section div {
-  background-color: papayawhip;
-  width: 95%;
-  margin: 2% 0;
+.App .about-section h2 {
   display: flex;
-  flex-direction: row;
+  font-size: 3rem;
 }
-.App .about-section h1 {
-  padding: 1%;
+.App .about-section svg {
+  width: 9%;
+  padding: 2%;
 }
 .App .technologies {
   color: white;
   background-color: black;
-  padding: 2% 0%;
+  min-height: 40vh;
 }
 .App .technologies h3 {
-  font-size: 3.5rem;
+  font-size: 3rem;
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+.App .technologies p {
+  font-size: 1.1rem;
 }
 .App .technologies div {
-  width: 45%;
-  background-color: orchid;
+  background-color: black;
 }
 .App .technologies .technologies-icons {
   width: 100%;
@@ -83,18 +86,23 @@ body section a:hover {
   justify-content: space-evenly;
 }
 .App .technologies-left {
+  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 .App .technologies-left svg {
-  width: 15%;
+  width: 12%;
   padding: 2%;
 }
 .App .technologies-right {
+  width: 25%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.App .technologies-right .technologies-icons {
+  margin-top: 5%;
 }
 .App .technologies-right .technologies-icons a {
   width: 40px;
