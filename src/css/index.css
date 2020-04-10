@@ -68,6 +68,10 @@ body section a:hover {
   color: white;
   padding: 2% 0%;
 }
+.App .technologies h3 {
+  display: flex;
+  align-items: center;
+}
 .App .technologies div {
   width: 45%;
   background-color: orchid;
