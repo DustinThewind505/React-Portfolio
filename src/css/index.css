@@ -20,21 +20,17 @@ body section a:hover {
 }
 .App-header {
   background-color: firebrick;
-  min-height: 50vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   text-align: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 7% 0;
+  line-height: 2.5rem;
 }
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App-header p {
+  margin-top: 2%;
 }
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
+  .App-header .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
@@ -54,14 +50,24 @@ body section a:hover {
   margin: 3% auto;
   padding: 2%;
   background-color: yellow;
+  line-height: 2rem;
+  text-align: start;
 }
 .App .about-section h2 {
   display: flex;
+  align-items: center;
   font-size: 3rem;
+}
+.App .about-section p {
+  padding: 2%;
 }
 .App .about-section svg {
   width: 9%;
   padding: 2%;
+}
+.App .about-section .about-section-right {
+  display: flex;
+  align-items: center;
 }
 .App .technologies {
   color: white;
