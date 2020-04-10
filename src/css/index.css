@@ -64,29 +64,42 @@ body section a:hover {
   padding: 1%;
 }
 .App .technologies {
-  background-color: black;
   color: white;
+  background-color: black;
   padding: 2% 0%;
 }
 .App .technologies h3 {
+  font-size: 3.5rem;
   display: flex;
-  align-items: center;
+  justify-content: center;
 }
 .App .technologies div {
   width: 45%;
   background-color: orchid;
-  color: white;
 }
 .App .technologies .technologies-icons {
   width: 100%;
   display: flex;
-  color: white;
+  justify-content: space-evenly;
 }
-.App .technologies .technologies-icons a {
+.App .technologies-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.App .technologies-left svg {
+  width: 15%;
+  padding: 2%;
+}
+.App .technologies-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.App .technologies-right .technologies-icons a {
   width: 40px;
   height: 40px;
   color: white;
-  margin: 8%;
 }
 .App .github-section h4 {
   width: 100%;

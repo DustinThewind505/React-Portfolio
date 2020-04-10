@@ -19,32 +19,51 @@
     }
 
     .technologies {
-        background-color: black;
         color: white;
+        background-color: black;
         padding: 2% 0%;
 
         h3 {
+            font-size: 3.5rem;
             display: flex;
-            align-items: center;
+            justify-content: center;
         }
     
         div {
             width: 45%;
             background-color: orchid;
-            color: white;
         }
 
         .technologies-icons {
             width: 100%;
             display: flex;
-            color: white;
+            justify-content: space-evenly;
         }
+    }
+
+    .technologies-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        svg {
+            width: 15%;
+            padding: 2%;
+        }
+    }
+
+    
+
+    .technologies-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
 
         .technologies-icons a {
             width: 40px;
             height: 40px;
             color: white;
-            margin: 8%;
         }
     }
 
