@@ -105,35 +105,47 @@
             font-size: 1rem;
         }
 
-        p {
-            text-align: start;
-            border-bottom: 2px solid black;
+        .github-section-left {
+            display: flex;
+            justify-content: center;
+        }
+
+        .github-section-left img {
+            padding: 20%;
+
         }
 
         .github-info-p1 {
-            width: 51%;
+            width: 50%;
         }
         
         .github-info-p2 {
-            width: 56%;
+            width: 55%;
         }
 
         .github-info-p3 {
-            width: 61%;
+            width: 60%;
         }
 
         .github-info-p4 {
-            width: 66%;
+            width: 65%;
         }
 
         .github-info-p5 {
-            width: 71%;
+            width: 70%;
             margin-bottom: 1%;
         }
 
         div {
-            width: 30%;
-            background-color: blue;
+            width: 33%;
+        }
+
+        .github-profile {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5rem;
         }
 
         .github-profile img {
@@ -163,11 +175,15 @@
         }
 
         .github-info {
-            background-color: rosybrown;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
             align-items: flex-end;
+        }
+
+        .github-info p {
+            text-align: start;
+            border-bottom: 2px solid black;
         }
     }
 
@@ -176,4 +192,19 @@
     
 
     
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .soap-logo {
+      animation: soap-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes soap-logo-spin {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
 }

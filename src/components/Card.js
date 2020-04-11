@@ -12,7 +12,6 @@ const Card = () => {
         axios.get(`https://api.github.com/users/DustinThewind505`)
             .then(response => {
                 console.log(response);
-                console.log("Oi Oi Oi");
                 setGithubData(response.data)
             })
             .catch(error => console.error("axios error"))
@@ -35,7 +34,7 @@ const Card = () => {
     return (
         <Fragment>
             <section key={githubData.id} className="github-section">
-                <div>
+                <div className="github-section-left">
                     <img src="https://dustinthewind505.github.io/images/github.png" alt="Github logo" />
                 </div>
                 <div className="github-profile">
@@ -51,7 +50,7 @@ const Card = () => {
                     <p className="github-info-p2">Following: {githubData.following}</p>
                     <p className="github-info-p3">Repos: {githubData.public_repos}</p>
                     <p className="github-info-p4">Joined: {githubData.created_at}</p>
-                    <p className="github-info-p5">Last Updated: {githubData.updated_at}</p>
+                    <p className="github-info-p5">Updated: {githubData.updated_at}</p>
                     <div className="followers-container">
                         {repoData.map(element => (
                             <div className="followers" key={element.id}>

@@ -1,12 +1,17 @@
-import React, {Fragment} from 'react';
+import React, { Fragment } from 'react';
 
 const Footer = props => {
 
 
-    return(
+    return (
         <Fragment>
             <footer>
-            <h1> Footer Poppet</h1>
+                <div>
+                    <h1> Footer Poppet</h1>
+                </div>
+                <div>
+                    <h1> Footer Poppet</h1>
+                </div>
             </footer>
         </Fragment>
     )
