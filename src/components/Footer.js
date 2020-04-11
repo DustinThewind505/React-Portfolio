@@ -6,11 +6,17 @@ const Footer = props => {
     return (
         <Fragment>
             <footer>
-                <div>
-                    <h1> Footer Poppet</h1>
+                <div className="footer-left">
+                    <ul>
+                        <h5>Social Media:</h5>
+                        <li><a href="https://www.linkedin.com/in/dustin-guillen-269307183/">LinkedIn</a></li>
+                        <li><a href="https://github.com/DustinThewind505">Github</a></li>
+                        <li><a href="https://codesandbox.io/u/DustinThewind505">CodeSandbox</a></li>
+                    </ul>
                 </div>
-                <div>
-                    <h1> Footer Poppet</h1>
+                <div className="footer-right">
+                    <img class="zia-img" src="https://dustinthewind505.github.io/images/zia-symbol-red-on-yellow.png" alt="New Mexico state flag" />
+                    <small>© Copyright 2020 | Dustin Guillen</small>
                 </div>
             </footer>
         </Fragment>

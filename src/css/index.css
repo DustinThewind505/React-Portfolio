@@ -10,8 +10,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 body section {
-  width: 100%;
-  background-color: crimson;
   display: flex;
   justify-content: space-evenly;
 }
@@ -32,6 +30,25 @@ body section a:hover {
 footer {
   display: flex;
   justify-content: space-evenly;
+  padding: 5% 0;
+  background-color: firebrick;
+}
+footer h5 {
+  font-size: 2rem;
+}
+footer li {
+  margin: 5% 0 5% 50%;
+}
+footer div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+footer .footer-right {
+  align-items: center;
+}
+footer img {
+  width: 50%;
 }
 .App {
   text-align: center;
@@ -62,7 +79,7 @@ footer {
 }
 .App .technologies {
   color: white;
-  background-color: black;
+  background-color: firebrick;
   min-height: 40vh;
 }
 .App .technologies h3 {
@@ -75,7 +92,7 @@ footer {
   font-size: 1.1rem;
 }
 .App .technologies div {
-  background-color: black;
+  background-color: firebrick;
 }
 .App .technologies .technologies-icons {
   width: 100%;
