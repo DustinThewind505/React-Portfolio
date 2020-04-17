@@ -1,61 +1,63 @@
 .App {
     text-align: center;
+}
 
-    .about-section {
-        width: 80%;
-        margin: 3% auto;
+.about-section {
+    width: 80%;
+    margin: 3% auto;
+    padding: 2%;
+    background-color: yellow;
+    line-height: 2rem;
+    text-align: start;
+
+    h2 {
+        display: flex;
+        align-items: center;
+        font-size: 3rem;
+    }
+
+    p {
         padding: 2%;
-        background-color: yellow;
-        line-height: 2rem;
-        text-align: start;
-
-        h2 {
-            display: flex;
-            align-items: center;
-            font-size: 3rem;
-        }
-
-        p {
-            padding: 2%;
-        }
-
-        svg {
-            width: 9%;
-            padding: 2%;
-        }
-
-        .about-section-right {
-            display: flex;
-            align-items: center;
-        }
     }
 
-    .technologies {
-        color: white;
-        background-color: firebrick;
-        min-height: 40vh;
+    svg {
+        width: 9%;
+        padding: 2%;
+    }
 
-        h3 {
-            font-size: 3rem;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+    .about-section-right {
+         display: flex;
+        align-items: center;
+    }
 
-        p {
-            font-size: 1.1rem;
-        }
+}
+
+.technologies {
+    color: white;
+    background-color: firebrick;
+    min-height: 40vh;
+
+    h3 {
+        font-size: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    p {
+        font-size: 1.1rem;
+    }
     
-        div {
-            background-color: firebrick;
-        }
-
-        .technologies-icons {
-            width: 100%;
-            display: flex;
-            justify-content: space-evenly;
-        }
+    div {
+        background-color: firebrick;
     }
+
+    .technologies-icons {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
 
     .technologies-left {
         width: 50%;
@@ -68,7 +70,6 @@
             padding: 2%;
         }
     }
-
     
 
     .technologies-right {
@@ -88,111 +89,111 @@
             color: white;
         }
     }
-
-    .github-section {
-        h4 {
-            width: 100%;
-            font-size: 1.8rem;
-        }
-
-        h5 {
-            width: 100%;
-            font-size: 1rem;
-        }
-
-        h6 {
-            width: 100%;
-            font-size: 1rem;
-        }
-
-        .github-section-left {
-            display: flex;
-            justify-content: center;
-        }
-
-        .github-section-left img {
-            padding: 20%;
-
-        }
-
-        .github-info-p1 {
-            width: 50%;
-        }
-        
-        .github-info-p2 {
-            width: 55%;
-        }
-
-        .github-info-p3 {
-            width: 60%;
-        }
-
-        .github-info-p4 {
-            width: 65%;
-        }
-
-        .github-info-p5 {
-            width: 70%;
-            margin-bottom: 1%;
-        }
-
-        div {
-            width: 33%;
-        }
-
-        .github-profile {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            font-size: 1.5rem;
-        }
-
-        .github-profile img {
-            width: 50%;
-        }
-
-
-        .followers-container {
-            width: 100%;
-            display: flex;
-            flex-wrap: wrap;
-        }
-        
-        .followers {
-            width: 33.333%;
-            background-color: purple;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border: 1px solid black;
-        }
-        
-        .followers img {
-            width: 30%;
-            margin: 5% 0;
-            border-radius: 100px;
-        }
-
-        .github-info {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            align-items: flex-end;
-        }
-
-        .github-info p {
-            text-align: start;
-            border-bottom: 2px solid black;
-        }
+}
+.github-section {
+    h4 {
+        width: 100%;
+        font-size: 1.8rem;
     }
 
-    
+    h5 {
+        width: 100%;
+        font-size: 1rem;
+    }
 
-    
+    h6 {
+        width: 100%;
+        font-size: 1rem;
+    }
 
-    
+    .github-section-left {
+        display: flex;
+        justify-content: center;
+    }
+
+    .github-section-left img {
+        padding: 20%;
+
+    }
+
+    .github-info-p1 {
+        width: 50%;
+    }
+        
+    .github-info-p2 {
+        width: 55%;
+    }
+
+    .github-info-p3 {
+        width: 60%;
+    }
+
+    .github-info-p4 {
+        width: 65%;
+    }
+
+    .github-info-p5 {
+        width: 70%;
+        margin-bottom: 1%;
+    }
+
+    div {
+        width: 33%;
+    }
+
+    .github-profile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+    }
+
+    .github-profile img {
+        width: 50%;
+    }
+
+
+    .followers-container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+        
+    .followers {
+        width: 33.333%;
+        background-color: purple;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid black;
+    }
+        
+    .followers img {
+        width: 30%;
+        margin: 5% 0;
+        border-radius: 100px;
+    }
+
+    .github-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    .github-info p {
+        text-align: start;
+        border-bottom: 2px solid black;
+    }
 }
+
+    
+
+    
+
+    
+
 
 @media (prefers-reduced-motion: no-preference) {
     .soap-logo {

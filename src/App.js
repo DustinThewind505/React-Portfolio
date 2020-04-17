@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import { Route } from 'react-router-dom';
 
 import Header from './components/Header';
 import About from './components/About';
@@ -6,18 +7,22 @@ import Technologies from './components/Technologies';
 import Card from './components/Card';
 import Footer from './components/Footer'
 
+import Projects from './components/Projects/Projects'
+
 import './css/index.css';
 
 function App() {
   return (
     <Fragment>
-      <Header />
       <div className="App">
-        <About />
+      <Header />
+        <Route exact path="/" component={About}/>
+        <Route path="/projects" component={Projects}/>
         <Technologies />
         <Card />
-      </div>
+      
       <Footer />
+      </div>
     </Fragment>
   );
 }

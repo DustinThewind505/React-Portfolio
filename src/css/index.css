@@ -44,6 +44,9 @@ footer div {
   flex-direction: column;
   justify-content: center;
 }
+footer .footer-left {
+  text-align: start;
+}
 footer .footer-right {
   align-items: center;
 }
@@ -53,7 +56,7 @@ footer img {
 .App {
   text-align: center;
 }
-.App .about-section {
+.about-section {
   width: 80%;
   margin: 3% auto;
   padding: 2%;
@@ -61,122 +64,122 @@ footer img {
   line-height: 2rem;
   text-align: start;
 }
-.App .about-section h2 {
+.about-section h2 {
   display: flex;
   align-items: center;
   font-size: 3rem;
 }
-.App .about-section p {
+.about-section p {
   padding: 2%;
 }
-.App .about-section svg {
+.about-section svg {
   width: 9%;
   padding: 2%;
 }
-.App .about-section .about-section-right {
+.about-section .about-section-right {
   display: flex;
   align-items: center;
 }
-.App .technologies {
+.technologies {
   color: white;
   background-color: firebrick;
   min-height: 40vh;
 }
-.App .technologies h3 {
+.technologies h3 {
   font-size: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.App .technologies p {
+.technologies p {
   font-size: 1.1rem;
 }
-.App .technologies div {
+.technologies div {
   background-color: firebrick;
 }
-.App .technologies .technologies-icons {
+.technologies .technologies-icons {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
 }
-.App .technologies-left {
+.technologies .technologies-left {
   width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.App .technologies-left svg {
+.technologies .technologies-left svg {
   width: 12%;
   padding: 2%;
 }
-.App .technologies-right {
+.technologies .technologies-right {
   width: 25%;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.App .technologies-right .technologies-icons {
+.technologies .technologies-right .technologies-icons {
   margin-top: 5%;
 }
-.App .technologies-right .technologies-icons a {
+.technologies .technologies-right .technologies-icons a {
   width: 40px;
   height: 40px;
   color: white;
 }
-.App .github-section h4 {
+.github-section h4 {
   width: 100%;
   font-size: 1.8rem;
 }
-.App .github-section h5 {
+.github-section h5 {
   width: 100%;
   font-size: 1rem;
 }
-.App .github-section h6 {
+.github-section h6 {
   width: 100%;
   font-size: 1rem;
 }
-.App .github-section .github-section-left {
+.github-section .github-section-left {
   display: flex;
   justify-content: center;
 }
-.App .github-section .github-section-left img {
+.github-section .github-section-left img {
   padding: 20%;
 }
-.App .github-section .github-info-p1 {
+.github-section .github-info-p1 {
   width: 50%;
 }
-.App .github-section .github-info-p2 {
+.github-section .github-info-p2 {
   width: 55%;
 }
-.App .github-section .github-info-p3 {
+.github-section .github-info-p3 {
   width: 60%;
 }
-.App .github-section .github-info-p4 {
+.github-section .github-info-p4 {
   width: 65%;
 }
-.App .github-section .github-info-p5 {
+.github-section .github-info-p5 {
   width: 70%;
   margin-bottom: 1%;
 }
-.App .github-section div {
+.github-section div {
   width: 33%;
 }
-.App .github-section .github-profile {
+.github-section .github-profile {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   font-size: 1.5rem;
 }
-.App .github-section .github-profile img {
+.github-section .github-profile img {
   width: 50%;
 }
-.App .github-section .followers-container {
+.github-section .followers-container {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
 }
-.App .github-section .followers {
+.github-section .followers {
   width: 33.333%;
   background-color: purple;
   display: flex;
@@ -184,18 +187,18 @@ footer img {
   justify-content: center;
   border: 1px solid black;
 }
-.App .github-section .followers img {
+.github-section .followers img {
   width: 30%;
   margin: 5% 0;
   border-radius: 100px;
 }
-.App .github-section .github-info {
+.github-section .github-info {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-end;
 }
-.App .github-section .github-info p {
+.github-section .github-info p {
   text-align: start;
   border-bottom: 2px solid black;
 }
