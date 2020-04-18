@@ -21,7 +21,7 @@ body section a:hover {
   text-align: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  padding: 7% 0;
+  padding: 6% 0;
   line-height: 2.5rem;
 }
 .App-header p {
@@ -203,14 +203,29 @@ footer img {
   border-bottom: 2px solid black;
 }
 .projects {
-  width: 32%;
+  width: 47%;
   background-color: #292929;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0.6% 0;
+  margin: 0.5% 0;
   border: 2px solid black;
-  border-radius: 10px;
+  border-radius: 5px;
+}
+.projects img {
+  width: 95%;
+  border: 3px solid black;
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.projects p {
+  width: 90%;
+}
+.project-section {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.5% 0;
 }
 @media (prefers-reduced-motion: no-preference) {
   .soap-logo {
