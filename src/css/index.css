@@ -17,21 +17,40 @@ body section a:hover {
   color: dodgerblue;
 }
 .App-header {
-  background-color: firebrick;
+  background-image: linear-gradient(firebrick, crimson);
   text-align: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  padding: 6% 0;
+  padding: 5% 0;
   line-height: 2.5rem;
 }
 .App-header p {
   margin-top: 2%;
 }
+.nav-container {
+  display: flex;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#3c434a), to(#222528));
+  padding: 1% 0;
+}
+.nav-container ul {
+  width: 100%;
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+  justify-content: space-evenly;
+}
+.nav-container li {
+  min-width: 300px;
+  background-color: crimson;
+  padding: 1%;
+  border-radius: 5px;
+}
 footer {
   display: flex;
   justify-content: space-evenly;
-  padding: 5% 0;
+  padding: 3% 0;
   background-color: firebrick;
+  color: white;
 }
 footer h5 {
   font-size: 2rem;
@@ -51,7 +70,7 @@ footer .footer-right {
   align-items: center;
 }
 footer img {
-  width: 50%;
+  width: 40%;
 }
 .App {
   text-align: center;
@@ -81,9 +100,9 @@ footer img {
   align-items: center;
 }
 .technologies {
-  color: white;
-  background-color: firebrick;
-  min-height: 40vh;
+  color: #292929;
+  background-color: crimson;
+  min-height: 25vh;
 }
 .technologies h3 {
   font-size: 3rem;
@@ -93,9 +112,6 @@ footer img {
 }
 .technologies p {
   font-size: 1.1rem;
-}
-.technologies div {
-  background-color: firebrick;
 }
 .technologies .technologies-icons {
   width: 100%;
@@ -124,7 +140,7 @@ footer img {
 .technologies .technologies-right .technologies-icons a {
   width: 40px;
   height: 40px;
-  color: white;
+  color: #292929;
 }
 .github-section h4 {
   width: 100%;
@@ -215,7 +231,7 @@ footer img {
 }
 .projects img {
   width: 95%;
-  border: 3px solid black;
+  border: 3.5px solid black;
   border-bottom-left-radius: 30px;
   border-top-right-radius: 30px;
 }

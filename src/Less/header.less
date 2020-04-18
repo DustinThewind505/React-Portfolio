@@ -1,13 +1,34 @@
 .App-header {
-  background-color: firebrick;
+  background-image: linear-gradient(firebrick,crimson);
   text-align: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  padding: 6% 0;
-    line-height: 2.5rem;
+  padding: 5% 0;
+  line-height: 2.5rem;
 
-    p {
-      margin-top: 2%;
-    }
-  
+  p {
+    margin-top: 2%;
   }
+  
+}
+
+.nav-container {
+  display: flex;
+  background-image: -webkit-gradient(linear,left top,left bottom,from(#3c434a),to(#222528));
+  padding: 1% 0;
+
+  ul {
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: space-evenly;
+  }
+
+  li {
+    min-width: 300px;
+    background-color: crimson;
+    padding: 1%;
+    border-radius: 5px;
+  }
+}

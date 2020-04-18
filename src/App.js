@@ -2,6 +2,7 @@ import React, { Fragment } from 'react';
 import { Route } from 'react-router-dom';
 
 import Header from './components/Header';
+import Navigation from './components/Home/Navigation';
 import About from './components/About';
 import Technologies from './components/Technologies';
 import Card from './components/Card';
@@ -16,6 +17,7 @@ function App() {
     <Fragment>
       <div className="App">
       <Header />
+      <Navigation />
         <Route exact path="/" component={About}/>
         <Route path="/projects" component={Projects}/>
         <Technologies />
