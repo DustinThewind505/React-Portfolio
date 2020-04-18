@@ -90,6 +90,10 @@
     }
 }
 .github-section {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1% 0;
+
     h4 {
         width: 100%;
         font-size: 1.8rem;
@@ -103,6 +107,12 @@
     h6 {
         width: 100%;
         font-size: 1rem;
+    }
+
+    div {
+        width: 30%;
+        background-color: papayawhip;
+        border-radius: 30px;
     }
 
     .github-section-left {
@@ -136,10 +146,6 @@
         margin-bottom: 1%;
     }
 
-    div {
-        width: 33%;
-    }
-
     .github-profile {
         display: flex;
         flex-direction: column;
@@ -157,15 +163,17 @@
         width: 100%;
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-between;
     }
         
     .followers {
-        width: 33.333%;
+        width: 33.33%;
         background-color: purple;
         display: flex;
         align-items: center;
         justify-content: center;
         border: 1px solid black;
+        border-radius: 0;
     }
         
     .followers img {

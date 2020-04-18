@@ -44,10 +44,11 @@ body section a:hover {
   background-color: firebrick;
   padding: 1%;
   border-radius: 5px;
-  border: 1px solid firebrick;
+  border: 1px solid #282828;
 }
 .nav-container li:hover {
   background-color: crimson;
+  border: 1px solid black;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 .nav-container a {
@@ -63,6 +64,7 @@ footer {
   padding: 3% 0;
   background-color: firebrick;
   color: white;
+  border-top: 1px solid black;
 }
 footer h5 {
   font-size: 2rem;
@@ -157,6 +159,11 @@ footer img {
   height: 40px;
   color: lawngreen;
 }
+.github-section {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1% 0;
+}
 .github-section h4 {
   width: 100%;
   font-size: 1.8rem;
@@ -168,6 +175,11 @@ footer img {
 .github-section h6 {
   width: 100%;
   font-size: 1rem;
+}
+.github-section div {
+  width: 30%;
+  background-color: papayawhip;
+  border-radius: 30px;
 }
 .github-section .github-section-left {
   display: flex;
@@ -192,9 +204,6 @@ footer img {
   width: 70%;
   margin-bottom: 1%;
 }
-.github-section div {
-  width: 33%;
-}
 .github-section .github-profile {
   display: flex;
   flex-direction: column;
@@ -209,14 +218,16 @@ footer img {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 .github-section .followers {
-  width: 33.333%;
+  width: 33.33%;
   background-color: purple;
   display: flex;
   align-items: center;
   justify-content: center;
   border: 1px solid black;
+  border-radius: 0;
 }
 .github-section .followers img {
   width: 30%;

@@ -3,9 +3,9 @@ import { Route } from 'react-router-dom';
 
 import Header from './components/Header';
 import Navigation from './components/Home/Navigation';
-import About from './components/About';
-import Technologies from './components/Technologies';
-import Card from './components/Card';
+import About from './components/Home/About';
+import Technologies from './components/Home/Technologies';
+import Card from './components/Home/Card';
 import Footer from './components/Footer'
 
 import Projects from './components/Projects/Projects'
