@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Projects = () => {
+const ProjectsComponent = () => {
 
 
     return (
@@ -38,7 +38,7 @@ const Projects = () => {
             </div>
 
             <div class="projects">
-                <a href="https://codesandbox.io/s/form-practice-4132020-t248m" rel="noopener noreferrer" target="_blank">
+                <a href="https://e9m2x.csb.app/" rel="noopener noreferrer" target="_blank">
                     <img src="/images/Screenshot3.png" alt="To do list" />
                 </a>
                 <h2>To Do List</h2>
@@ -51,4 +51,4 @@ const Projects = () => {
     )
 }
 
-export default Projects;
+export default ProjectsComponent;

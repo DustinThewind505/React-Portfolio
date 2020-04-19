@@ -1,6 +1,6 @@
 import React from 'react';
 
-const About = () => {
+const Bio = () => {
 
 
 
@@ -25,4 +25,4 @@ const About = () => {
     )
 }
 
-export default About;
+export default Bio;
