@@ -51,7 +51,7 @@ const Card = () => {
                     <p className="github-info-p3">Repos: {githubData.public_repos}</p>
                     <p className="github-info-p4">Joined: {githubData.created_at}</p>
                     <p className="github-info-p5">Updated: {githubData.updated_at}</p>
-                    <div className="followers-container">
+                    <div className="followers-container" data-testid="followers">
                         {repoData.map(element => (
                             <div className="followers" key={element.id}>
                                 <p>{element.login}</p>
