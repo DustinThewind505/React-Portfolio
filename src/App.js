@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 
@@ -16,7 +16,6 @@ function App() {
   return (
     <Router>
     <div className="App">
-      <h1>Oi</h1>
       <Header />
       <Navigation />
       <Route exact path="/" component={About} />

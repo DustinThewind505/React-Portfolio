@@ -16,6 +16,12 @@ body section {
 body section a:hover {
   color: dodgerblue;
 }
+body .cursive {
+  font-size: 4rem;
+  font-family: 'Satisfy', cursive;
+  font-weight: 800;
+  text-shadow: 2px 2px black;
+}
 .App-header {
   background-image: linear-gradient(crimson, firebrick);
   text-align: center;
@@ -26,6 +32,17 @@ body section a:hover {
 }
 .App-header p {
   margin-top: 2%;
+}
+.App-header h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 2px 2px black;
+}
+.App-header .mouseIcon {
+  width: 50px;
+  height: 50px;
+  margin-left: 1%;
 }
 .nav-container {
   display: flex;
