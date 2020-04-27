@@ -22,7 +22,7 @@ body .cursive {
   font-weight: bold;
 }
 .App-header {
-  background-image: linear-gradient(crimson, firebrick);
+  background-image: linear-gradient(crimson, darkred);
   text-align: center;
   font-size: calc(10px + 2vmin);
   color: white;
@@ -53,28 +53,25 @@ body .cursive {
 .nav-container ul {
   width: 100%;
   display: flex;
-  text-decoration: none;
   list-style-type: none;
   justify-content: space-evenly;
 }
 .nav-container li {
-  min-width: 300px;
-  background-color: firebrick;
-  padding: 1%;
-  border-radius: 5px;
-  border: 1px solid #282828;
+  min-width: 275px;
 }
-.nav-container li:hover {
+.nav-container a {
+  border: 1px solid #282828;
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: whitesmoke;
+  background-color: #960000;
+  border-radius: 5px;
+  padding: 2% 50%;
+}
+.nav-container a:hover {
   background-color: crimson;
   border: 1px solid black;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-}
-.nav-container a {
-  width: 100%;
-  text-decoration: none;
-  font-size: 1.5rem;
-  color: whitesmoke;
-  background-color: ;
 }
 footer {
   display: flex;

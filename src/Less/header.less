@@ -1,5 +1,5 @@
 .App-header {
-  background-image: linear-gradient(crimson, firebrick);
+  background-image: linear-gradient(crimson, darkred);
   text-align: center;
   font-size: calc(10px + 2vmin);
   color: white;
@@ -34,30 +34,27 @@
   ul {
     width: 100%;
     display: flex;
-    text-decoration: none;
     list-style-type: none;
     justify-content: space-evenly;
   }
 
   li {
-    min-width: 300px;
-    background-color: firebrick;
-    padding: 1%;
-    border-radius: 5px;
-    border: 1px solid rgb(40, 40, 40);
-  }
-
-  li:hover {
-    background-color: crimson;
-    border: 1px solid black;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    min-width: 275px;
   }
 
   a {
-    width: 100%;
+    border: 1px solid rgb(40, 40, 40);
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     color: whitesmoke;
-    background-color: ;
+    background-color: rgb(150, 0, 0);
+    border-radius: 5px;
+    padding: 2% 50%;
+  }
+
+  a:hover {
+    background-color: crimson;
+    border: 1px solid black;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
   }
 }
