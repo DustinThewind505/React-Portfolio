@@ -20,7 +20,6 @@ body .cursive {
   font-size: 4rem;
   font-family: 'Satisfy', cursive;
   font-weight: bold;
-  text-shadow: 2px 2px #222528;
 }
 .App-header {
   background-image: linear-gradient(crimson, firebrick);
@@ -38,7 +37,7 @@ body .cursive {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-shadow: 1px 1px #222528, 0 0 0 #222528, 0 0 0.2em #222528;
+  text-shadow: 2px 2px #222528;
 }
 .App-header .mouseIcon {
   width: 50px;
@@ -107,7 +106,7 @@ footer img {
 }
 .App {
   text-align: center;
-  background-color: firebrick;
+  background-color: #3c434a;
 }
 .about-section {
   width: 80%;
@@ -139,6 +138,7 @@ footer img {
   color: lawngreen;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#3c434a), to(#222528));
   min-height: 25vh;
+  text-shadow: 2px 2px 2px #191b1d;
 }
 .technologies h3 {
   font-size: 3rem;
