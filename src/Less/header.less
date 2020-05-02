@@ -27,7 +27,8 @@
 
 .nav-container {
   display: flex;
-  background-image: -webkit-gradient(linear,left top,left bottom,from(#3c434a),to(#222528));
+  background-image: linear-gradient(black, black, firebrick, black, crimson,  black, firebrick, black, black);
+  // background-image: -webkit-gradient(linear,left top,left bottom,from(#3c434a),to(#222528));
   padding: 1% 0;
   text-shadow: 1px 1px #222528, 0 0 1em #222528, 0 0 0.2em #222528;
 
@@ -47,14 +48,15 @@
     text-decoration: none;
     font-size: 1.4rem;
     color: whitesmoke;
-    background-color: rgb(150, 0, 0);
+    background-image: linear-gradient(black, firebrick,  black, black,  black,   black, firebrick, black);
     border-radius: 5px;
     padding: 2% 50%;
   }
 
   a:hover {
     background-color: crimson;
+    background-image: none;
     border: 1px solid black;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: .25s ease-in-out;
   }
 }

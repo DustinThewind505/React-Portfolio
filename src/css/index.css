@@ -46,7 +46,7 @@ body .cursive {
 }
 .nav-container {
   display: flex;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#3c434a), to(#222528));
+  background-image: linear-gradient(black, black, firebrick, black, crimson, black, firebrick, black, black);
   padding: 1% 0;
   text-shadow: 1px 1px #222528, 0 0 1em #222528, 0 0 0.2em #222528;
 }
@@ -64,14 +64,15 @@ body .cursive {
   text-decoration: none;
   font-size: 1.4rem;
   color: whitesmoke;
-  background-color: #960000;
+  background-image: linear-gradient(black, firebrick, black, black, black, black, firebrick, black);
   border-radius: 5px;
   padding: 2% 50%;
 }
 .nav-container a:hover {
   background-color: crimson;
+  background-image: none;
   border: 1px solid black;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: 0.25s ease-in-out;
 }
 footer {
   display: flex;
@@ -179,6 +180,7 @@ footer img {
   display: flex;
   justify-content: space-evenly;
   padding: 1% 0;
+  background-image: linear-gradient(darkred, #fff);
 }
 .github-section h4 {
   width: 100%;

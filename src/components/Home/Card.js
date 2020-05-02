@@ -7,7 +7,7 @@ const Card = () => {
     const [githubData, setGithubData] = useState([]);
     const [repoData, setRepoData] = useState([]);
 
-    const [input, setInput] = useState()
+    const [input, setInput] = useState('DustinThewind505')
 
     useEffect(() => {
 
@@ -39,7 +39,7 @@ const Card = () => {
 
     const handleSubmit = event => {
         event.preventDefault();
-        setInput(event.target.value)
+        setInput("")
     }
 
     console.log(input)
@@ -50,7 +50,7 @@ const Card = () => {
                     <img src="https://dustinthewind505.github.io/images/github.png" alt="Github logo" />
                     <form  onSubmit={handleSubmit}>
                         <label>
-                            <input onSubmit={handleChange}/>
+                            <input onChange={handleChange}/>
                         </label>
                         <button type="submit">Submit</button>
                     </form>
