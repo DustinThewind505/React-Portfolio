@@ -85,29 +85,33 @@ footer {
 footer h5 {
   font-size: 2rem;
 }
+footer ul {
+  list-style: none;
+}
 footer li {
-  margin: 5% 0 5% 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 30%;
+  margin: 5% 25%;
 }
 footer a {
   display: flex;
+  justify-content: space-between;
   align-items: center;
+  font-size: 1.1rem;
 }
 footer div {
+  width: 33%;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 footer .footer-left {
-  text-align: start;
+  text-align: center;
 }
 footer .footer-right {
   align-items: center;
 }
 footer img {
-  width: 40%;
+  width: 45%;
 }
 .App {
   text-align: center;
@@ -187,7 +191,7 @@ footer img {
   display: flex;
   justify-content: space-evenly;
   padding: 1% 0;
-  background-image: linear-gradient(darkred, #fff);
+  background-image: linear-gradient(darkred, #fff, #fff, #fff);
 }
 .github-section h4 {
   width: 100%;
@@ -203,13 +207,16 @@ footer img {
 }
 .github-section div {
   width: 30%;
-  background-color: papayawhip;
+  background-color: white;
   border-radius: 30px;
 }
 .github-section .github-section-left {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.github-section .github-section-left form {
+  background-color: firebrick;
 }
 .github-section .github-section-left img {
   padding: 20%;
