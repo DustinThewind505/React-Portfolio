@@ -9,8 +9,8 @@ const Footer = props => {
                 <div className="footer-left">
                     <ul>
                         <h5>Social Media:</h5>
-                        <li><a href="https://www.linkedin.com/in/dustin-guillen-269307183/">LinkedIn</a></li>
-                        <li><a href="https://github.com/DustinThewind505">Github</a></li>
+                        <li><img src="http://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c528.png"/><a href="https://www.linkedin.com/in/dustin-guillen-269307183/">LinkedIn</a></li>
+                        <li><a href="https://github.com/DustinThewind505"><img src="https://www.electronjs.org/images/apps/github-desktop-icon.png"/>Github</a></li>
                         <li><a href="https://codesandbox.io/u/DustinThewind505">CodeSandbox</a></li>
                     </ul>
                 </div>
