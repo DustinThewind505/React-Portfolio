@@ -200,6 +200,7 @@ footer img {
 .github-section .github-section-left {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .github-section .github-section-left img {
   padding: 20%;

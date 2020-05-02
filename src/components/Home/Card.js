@@ -7,9 +7,11 @@ const Card = () => {
     const [githubData, setGithubData] = useState([]);
     const [repoData, setRepoData] = useState([]);
 
+    const [input, setInput] = useState()
+
     useEffect(() => {
 
-        axios.get(`https://api.github.com/users/DustinThewind505`)
+        axios.get(`https://api.github.com/users/${input}`)
             .then(response => {
                 console.log(response);
                 setGithubData(response.data)
@@ -17,11 +19,11 @@ const Card = () => {
             .catch(error => console.error("axios error"))
 
 
-    }, [])
+    }, [input])
 
     useEffect(() => {
 
-        fetch("https://api.github.com/users/DustinThewind505/followers")
+        fetch(`https://api.github.com/users/${input}/followers`)
             .then(res => res.json())
             .then(response => {
                 console.log(response);
@@ -29,13 +31,29 @@ const Card = () => {
             })
 
 
-    }, [])
+    }, [input])
 
+    const handleChange = event => {
+        setInput(event.target.value)
+    }
+
+    const handleSubmit = event => {
+        event.preventDefault();
+        setInput(event.target.value)
+    }
+
+    console.log(input)
     return (
         <Fragment>
             <section key={githubData.id} className="github-section">
                 <div className="github-section-left">
                     <img src="https://dustinthewind505.github.io/images/github.png" alt="Github logo" />
+                    <form  onSubmit={handleSubmit}>
+                        <label>
+                            <input onSubmit={handleChange}/>
+                        </label>
+                        <button type="submit">Submit</button>
+                    </form>
                 </div>
                 <div className="github-profile">
                     <h3>{githubData.name}</h3>
