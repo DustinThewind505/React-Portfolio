@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  border: 1px solid black;
+  border: 0;
 }
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
@@ -44,20 +44,25 @@ body .cursive {
   height: 50px;
   margin-left: 1%;
 }
-.nav-container {
+.navbar-container {
+  background-color: black;
   display: flex;
+  justify-content: center;
+}
+.nav-container {
+  width: 80%;
   background-image: linear-gradient(black, black, firebrick, black, black, crimson, black, black, firebrick, black, black);
-  padding: 1% 0;
+  padding: 1.2% 0%;
   text-shadow: 1px 1px #222528, 0 0 1em #222528, 0 0 0.2em #222528;
+  border-radius: 20px;
 }
 .nav-container ul {
-  width: 100%;
   display: flex;
   list-style-type: none;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 .nav-container li {
-  min-width: 275px;
+  width: 30%;
 }
 .nav-container a {
   border: 1px solid #282828;
@@ -65,8 +70,7 @@ body .cursive {
   font-size: 1.4rem;
   color: whitesmoke;
   background-image: linear-gradient(firebrick, black, black, black, black, firebrick);
-  border-radius: 5px;
-  padding: 2% 50%;
+  padding: 2% 25%;
 }
 .nav-container a:hover {
   background-color: crimson;
@@ -89,7 +93,7 @@ footer ul {
   list-style: none;
 }
 footer li {
-  width: 30%;
+  width: 35%;
   margin: 5% 25%;
 }
 footer a {
@@ -207,7 +211,6 @@ footer img {
 }
 .github-section div {
   width: 30%;
-  background-color: white;
   border-radius: 30px;
 }
 .github-section .github-section-left {
@@ -243,6 +246,7 @@ footer img {
   justify-content: center;
   align-items: center;
   font-size: 1.5rem;
+  border: 2px solid black;
 }
 .github-section .github-profile img {
   width: 50%;
@@ -272,6 +276,7 @@ footer img {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-end;
+  background-color: white;
 }
 .github-section .github-info p {
   text-align: start;
@@ -308,7 +313,7 @@ footer img {
 }
 @media (prefers-reduced-motion: no-preference) {
   .soap-logo {
-    animation: soap-logo-spin infinite 20s linear;
+    animation: soap-logo-spin infinite 5s linear;
   }
 }
 @keyframes soap-logo-spin {

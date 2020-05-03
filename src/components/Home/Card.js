@@ -19,7 +19,7 @@ const Card = () => {
             .catch(error => console.error("axios error"))
 
 
-    }, [input])
+    }, [])
 
     useEffect(() => {
 
@@ -31,15 +31,20 @@ const Card = () => {
             })
 
 
-    }, [input])
+    }, [])
+
+    // const onSearch = user => {
+	// 	console.log("app.js onSearch:");
+	// 	setState({ ...this.state, userSearch: user });
+	// };
 
     const handleChange = event => {
+        event.preventDefault();
         setInput(event.target.value)
     }
 
     const handleSubmit = event => {
         event.preventDefault();
-        setInput("")
     }
 
     console.log(input)
@@ -50,7 +55,7 @@ const Card = () => {
                     <img src="https://dustinthewind505.github.io/images/github.png" alt="Github logo" />
                     <form  onSubmit={handleSubmit}>
                         <label>
-                            <input onChange={handleChange}/>
+                            <input value={input} onChange={handleChange}/>
                         </label>
                         <button type="submit">Submit</button>
                     </form>

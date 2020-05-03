@@ -2,6 +2,7 @@ import React, { Fragment } from 'react';
 
 import Bio from './Bio';
 
+
 const AboutComponent = () => {
 
 
