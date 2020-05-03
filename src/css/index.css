@@ -121,6 +121,44 @@ footer img {
   text-align: center;
   background-color: #3c434a;
 }
+.home {
+  background-image: url("https://myersandmyersrealestate.com/wp-content/uploads/2017/12/5-Points-Of-Interest-In-Albuquerque-NM.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  padding-top: 0.5%;
+  line-height: 2.5rem;
+}
+.home p {
+  margin-top: 2%;
+  text-shadow: 1px 1px #222528, 0 0 1em #222528, 0 0 0.2em #222528;
+}
+.home h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 2px 2px #222528;
+  font-size: 5rem;
+}
+.home .cursive {
+  font-size: 7rem;
+  font-family: 'Satisfy', cursive;
+  font-weight: bold;
+}
+.home .mouseIcon {
+  width: 50px;
+  height: 50px;
+  margin-left: 1%;
+}
+.home .home-header {
+  width: 70%;
+  margin: 10% auto 15%;
+  padding: 3.5% 0 1%;
+  background-image: linear-gradient(crimson, darkred);
+  border-radius: 800px;
+}
 .about-section {
   width: 80%;
   margin: 3% auto;
@@ -150,7 +188,7 @@ footer img {
 .technologies {
   color: lawngreen;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#3c434a), to(#222528));
-  min-height: 25vh;
+  min-height: 20vh;
   text-shadow: 2px 2px 2px #191b1d;
 }
 .technologies h3 {
