@@ -1,11 +1,13 @@
 import React, { Fragment } from 'react';
 
+import Technologies from '../../Home/Technologies';
 
 const ProjectsComponent = () => {
 
 
     return (
         <Fragment>
+            <Technologies />
             <section class="project-section">
                 <div class="projects">
                     <a href="https://codesandbox.io/s/rick-and-morty-api-9zoix" rel="noopener noreferrer" target="_blank">
