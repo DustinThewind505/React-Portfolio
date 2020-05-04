@@ -21,6 +21,10 @@ body .cursive {
   font-family: 'Satisfy', cursive;
   font-weight: bold;
 }
+.App {
+  text-align: center;
+  background-color: #3c434a;
+}
 .App-header {
   background-image: linear-gradient(crimson, darkred);
   text-align: center;
@@ -76,7 +80,7 @@ body .cursive {
   background-color: crimson;
   background-image: none;
   border: 1px solid black;
-  transition: 0.2s;
+  transition: 0.25s;
 }
 footer {
   display: flex;
@@ -117,11 +121,8 @@ footer .footer-right {
 footer img {
   width: 45%;
 }
-.App {
-  text-align: center;
-  background-color: #3c434a;
-}
 .home {
+  min-height: 100vh;
   background-image: url("https://myersandmyersrealestate.com/wp-content/uploads/2017/12/5-Points-Of-Interest-In-Albuquerque-NM.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -130,6 +131,9 @@ footer img {
   color: white;
   padding-top: 0.5%;
   line-height: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .home p {
   margin-top: 2%;
@@ -141,6 +145,7 @@ footer img {
   align-items: center;
   text-shadow: 2px 2px #222528;
   font-size: 5rem;
+  margin-left: 8%;
 }
 .home .cursive {
   font-size: 7rem;
@@ -153,37 +158,11 @@ footer img {
   margin-left: 1%;
 }
 .home .home-header {
-  width: 70%;
+  width: 75%;
   margin: 10% auto 15%;
-  padding: 3.5% 0 1%;
+  padding: 3.5% 1% 1%;
   background-image: linear-gradient(crimson, darkred);
   border-radius: 800px;
-}
-.about-section {
-  width: 80%;
-  margin: 3% auto;
-  padding: 2%;
-  background-color: papayawhip;
-  line-height: 2rem;
-  text-align: start;
-  border: 1px solid black;
-  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5);
-}
-.about-section h2 {
-  display: flex;
-  align-items: center;
-  font-size: 3rem;
-}
-.about-section p {
-  padding: 2%;
-}
-.about-section svg {
-  width: 9%;
-  padding: 2%;
-}
-.about-section .about-section-right {
-  display: flex;
-  align-items: center;
 }
 .technologies {
   color: lawngreen;
@@ -204,6 +183,12 @@ footer img {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
+  margin-top: 5%;
+}
+.technologies .technologies-icons a {
+  width: 40px;
+  height: 40px;
+  color: lawngreen;
 }
 .technologies .technologies-left {
   width: 50%;
@@ -220,14 +205,6 @@ footer img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-.technologies .technologies-right .technologies-icons {
-  margin-top: 5%;
-}
-.technologies .technologies-right .technologies-icons a {
-  width: 40px;
-  height: 40px;
-  color: lawngreen;
 }
 .github-section {
   display: flex;
@@ -251,13 +228,13 @@ footer img {
   width: 30%;
   border-radius: 30px;
 }
+.github-section form {
+  background-color: firebrick;
+}
 .github-section .github-section-left {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.github-section .github-section-left form {
-  background-color: firebrick;
 }
 .github-section .github-section-left img {
   padding: 20%;
@@ -319,6 +296,32 @@ footer img {
 .github-section .github-info p {
   text-align: start;
   border-bottom: 2px solid black;
+}
+.about-section {
+  width: 80%;
+  margin: 3% auto;
+  padding: 2%;
+  background-color: papayawhip;
+  line-height: 2rem;
+  text-align: start;
+  border: 1px solid black;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.about-section h2 {
+  display: flex;
+  align-items: center;
+  font-size: 3rem;
+}
+.about-section p {
+  padding: 2%;
+}
+.about-section svg {
+  width: 9%;
+  padding: 2%;
+}
+.about-section .about-section-right {
+  display: flex;
+  align-items: center;
 }
 .projects {
   width: 47%;
