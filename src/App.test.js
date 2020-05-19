@@ -13,6 +13,6 @@ test('Testing to see if tests works', () => {
 });
 
 test('Testing the header for Software', () => {
-  const { getByText } =render(<Header />);
+  const { getByText } = render(<Header />);
   getByText(/Mexico/);
 });
