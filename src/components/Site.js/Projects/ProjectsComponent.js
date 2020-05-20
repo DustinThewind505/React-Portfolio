@@ -18,6 +18,7 @@ const ProjectsComponent = () => {
 
                     <p>Single Page Application with Client-Side Routing. This application consumes a 3rd party API based on the TV
           show Rick and Morty. It uses React Router and React forms.</p>
+                    <div className="demo-button">Demo</div>
                 </div>
 
                 <div class="projects">
@@ -29,6 +30,7 @@ const ProjectsComponent = () => {
 
                     <p>Single Page Application with Client-Side Routing. This application passes data to components rendered by
           React Router. It uses nested routes to display sub-nav views </p>
+                    <div className="demo-button">Demo</div>
                 </div>
 
                 <div class="projects">
@@ -39,6 +41,7 @@ const ProjectsComponent = () => {
                     <p>HTML, CSS, React</p>
 
                     <p>React App made using stateful class components. This application adds and filters objects from state. It is a classic To Do App.<br />🎨👌😂</p>
+                    <div className="demo-button">Demo</div>
                 </div>
 
                 <div class="projects">
@@ -49,6 +52,7 @@ const ProjectsComponent = () => {
                     <p>HTML, CSS, React</p>
 
                     <p>React App made using stateful class components. This application adds and filters objects from state. It is a classic To Do App.<br />🎨👌😂</p>
+                    <div className="demo-button">Demo</div>
                 </div>
 
             </section>

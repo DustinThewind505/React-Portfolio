@@ -95,12 +95,16 @@ footer h5 {
 footer ul {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   list-style: none;
 }
+footer li {
+  width: 35%;
+}
 footer a {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   font-size: 1.1rem;
 }
@@ -110,14 +114,11 @@ footer div {
   flex-direction: column;
   justify-content: center;
 }
-footer .footer-left {
-  background-color: darkcyan;
-}
 footer .footer-right {
   align-items: center;
 }
 footer img {
-  width: 50%;
+  width: 30%;
 }
 .home {
   min-height: 100vh;
@@ -344,6 +345,14 @@ footer img {
 }
 .projects h2 {
   color: lawngreen;
+}
+.projects .demo-button {
+  margin: 1% 0;
+  padding: 1% 5%;
+  background-color: lawngreen;
+}
+.projects .demo-button:hover {
+  background-color: darkgoldenrod;
 }
 .project-section {
   display: flex;

@@ -7,8 +7,8 @@ const Footer = props => {
         <Fragment>
             <footer>
                 <div className="footer-left">
+                <h5>Social Media:</h5>
                     <ul>
-                        <h5>Social Media:</h5>
                         <li><a href="https://github.com/DustinThewind505" target="_blank"><img src="https://www.electronjs.org/images/apps/github-desktop-icon.png" />Github</a></li>
                         <li><a href="https://www.linkedin.com/in/dustin-guillen-269307183/" target="_blank"><img src="http://icons.iconarchive.com/icons/yootheme/social-bookmark/512/social-linkedin-box-blue-icon.png" />LinkedIn</a></li>
                         
