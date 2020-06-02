@@ -45,13 +45,13 @@ const ProjectsComponent = () => {
                 </div>
 
                 <div class="projects">
-                    <a href="https://e9m2x.csb.app/" rel="noopener noreferrer" target="_blank">
-                        <img src="/images/Screenshot3.png" alt="To do list" />
+                    <a href="https://dustinthewind505.github.io/" rel="noopener noreferrer" target="_blank">
+                        <img src="/images/Screenshot4.png" alt="To do list" />
                     </a>
-                    <h2>To Do List</h2>
-                    <p>HTML, CSS, React</p>
+                    <h2>HTML Portfolio</h2>
+                    <p>HTML, CSS, Less</p>
 
-                    <p>React App made using stateful class components. This application adds and filters objects from state. It is a classic To Do App.<br />🎨👌😂</p>
+                    <p>An simple example portfolio I made for my students using only HTML and CSS/LESS. It uses flexbox and has and animated background.</p>
                     <div className="demo-button">Demo</div>
                 </div>
 
