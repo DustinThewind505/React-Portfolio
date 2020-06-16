@@ -11,7 +11,7 @@ const ProjectsComponent = () => {
             <section class="project-section">
                 <div class="projects">
                     <a href="https://codesandbox.io/s/rick-and-morty-api-9zoix" rel="noopener noreferrer" target="_blank">
-                        <img src="/images/Sreenshot1.png" alt="Rick and Morty app" />
+                        <img src="/images/Screenshot1.png" alt="Rick and Morty app" />
                     </a>
                     <h2>Rick & Morty API</h2>
                     <p>HTML, CSS, React</p>

@@ -19,7 +19,7 @@ const Bio = () => {
                 </p>
             </div>
             <div className="about-section-right">
-                <img src="https://media-exp1.licdn.com/dms/image/C5603AQGCMiHGoXykXg/profile-displayphoto-shrink_200_200/0?e=1595462400&v=beta&t=e69eZFEYhyVGEfs44BKlY6l56YKmFWqR3CPEAr-LQrY" alt="picture of Dustin Guillen" />
+                <img src="https://media-exp1.licdn.com/dms/image/C5603AQGCMiHGoXykXg/profile-displayphoto-shrink_200_200/0?e=1595462400&v=beta&t=e69eZFEYhyVGEfs44BKlY6l56YKmFWqR3CPEAr-LQrY" alt="Dustin Guillen" />
             </div>
         </section>
     )
