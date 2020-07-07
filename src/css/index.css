@@ -87,56 +87,26 @@ footer {
   justify-content: space-between;
   border-top: 1px solid black;
   background-color: firebrick;
-  padding: 0.2% 0;
   z-index: 1;
+}
+@media (max-width: 500px) {
+  footer {
+    display: flex;
+    align-items: center;
+    background-color: purple;
+    z-index: 1;
+  }
 }
 footer div {
   width: 30%;
 }
-footer a {
-  text-align: center;
-}
-footer a:hover {
-  box-shadow: 5px 5px 5px black;
-  background-color: blueviolet;
-}
-footer small {
-  font-size: 0.8rem;
-}
-@media (max-width: 500px) {
-  footer small {
-    font-size: 0.7rem;
-    font-weight: bold;
-  }
-}
-footer img {
-  width: 30%;
-}
-@media (max-width: 500px) {
-  footer img {
-    width: 100%;
-  }
-}
-footer .contact-links {
-  display: flex;
-  align-items: center;
-}
-footer .codesandbox-logo {
-  width: 75%;
-  text-align: center;
-}
-footer .zia-img {
-  width: 5%;
-  margin: 1% 0 2.5%;
-  border: 1px solid black;
-}
-@media (max-width: 500px) {
-  footer .zia-img {
-    display: none;
-  }
-}
 footer .footer-left {
-  padding-top: 0.3%;
+  display: flex;
+  justify-content: start;
+}
+footer .footer-left img {
+  width: 50%;
+  margin: 2%;
 }
 @media (max-width: 500px) {
   footer .footer-left {
@@ -156,22 +126,56 @@ footer .footer-middle {
     font-size: 1rem;
   }
 }
+footer .footer-middle small {
+  font-size: 0.8rem;
+}
+@media (max-width: 500px) {
+  footer .footer-middle small {
+    font-size: 0.7rem;
+    font-weight: bold;
+  }
+}
+footer .zia-img {
+  width: 7%;
+  margin: 1% 0%;
+  border: 1px solid black;
+}
+@media (max-width: 500px) {
+  footer .zia-img {
+    display: none;
+  }
+}
 footer .footer-right {
   display: flex;
   margin-right: 0%;
+}
+footer .footer-right img {
+  width: 35%;
+}
+@media (max-width: 500px) {
+  footer .footer-right img {
+    width: 100%;
+  }
 }
 @media (max-width: 500px) {
   footer .footer-right {
     width: 20%;
   }
 }
-@media (max-width: 500px) {
-  footer {
-    display: flex;
-    align-items: center;
-    background-color: purple;
-    z-index: 1;
-  }
+footer .contact-links {
+  display: flex;
+  align-items: center;
+}
+footer .contact-links a {
+  text-align: center;
+}
+footer .contact-links a:hover {
+  box-shadow: 5px 5px 5px black;
+  background-color: blueviolet;
+}
+footer #codesandbox-logo {
+  width: 35%;
+  text-align: center;
 }
 .home {
   min-height: 100vh;
