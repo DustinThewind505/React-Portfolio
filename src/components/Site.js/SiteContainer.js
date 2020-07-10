@@ -12,6 +12,18 @@ const Site = () => {
 
     return (
         <div>
+            <ul class="boxes">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
             <Header />
             <Route path="/app/about" component={About} />
             <Route path="/app/projects" component={Projects} />
