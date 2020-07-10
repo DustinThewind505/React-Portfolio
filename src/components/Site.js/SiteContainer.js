@@ -12,6 +12,7 @@ const Site = () => {
 
     return (
         <div>
+{/* ============ SQAURES animated background ============ */}
             <ul class="boxes">
                     <li></li>
                     <li></li>
