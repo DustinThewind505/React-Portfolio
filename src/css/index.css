@@ -51,11 +51,46 @@ body .cursive {
   margin-left: 1%;
   z-index: 0;
 }
+.navbar-container {
+  background-color: black;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.navbar-container .nav-container {
+  width: 80%;
+  background-image: linear-gradient(black, black, firebrick, black, black, crimson, black, black, firebrick, black, black);
+  padding: 1.2% 0%;
+  text-shadow: 1px 1px #222528, 0 0 1em #222528, 0 0 0.2em #222528;
+  border-radius: 20px;
+}
+.navbar-container .nav-container ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+.navbar-container .nav-container li {
+  width: 30%;
+}
+.navbar-container .nav-container a {
+  border: 1px solid #282828;
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: whitesmoke;
+  background-image: linear-gradient(firebrick, black, black, black, black, firebrick);
+  padding: 2% 25%;
+}
+.navbar-container .nav-container a:hover {
+  background-color: crimson;
+  background-image: none;
+  border: 1px solid black;
+  transition: 0.25s;
+}
 .boxes li {
   position: absolute;
   display: block;
   list-style-type: none;
-  background: gold;
+  background: yellow;
   animation: animate 20s linear infinite;
   top: 55%;
 }
@@ -63,7 +98,7 @@ body .cursive {
   left: 86%;
   width: 80px;
   height: 80px;
-  animation-delay: 1s;
+  animation-delay: 2.8s;
 }
 @media (max-width: 500px) {
   .boxes li:nth-child(1) {
@@ -77,7 +112,7 @@ body .cursive {
   left: 12%;
   width: 30px;
   height: 30px;
-  animation-delay: 1.5s;
+  animation-delay: 2.5s;
   animation-duration: 10s;
 }
 @media (max-width: 500px) {
@@ -104,6 +139,7 @@ body .cursive {
 }
 .boxes li:nth-child(4) {
   left: 70%;
+  top: 50%;
   width: 150px;
   height: 150px;
   animation-delay: 0s;
@@ -160,7 +196,7 @@ body .cursive {
   }
 }
 .boxes li:nth-child(8) {
-  left: 45%;
+  left: 85%;
   width: 90px;
   height: 90px;
   animation-delay: 6.5s;
@@ -169,7 +205,7 @@ body .cursive {
   .boxes li:nth-child(8) {
     left: 70%;
     bottom: -100%;
-    animation-delay: 1s;
+    animation-delay: 3s;
     animation-duration: 17s;
   }
 }
@@ -177,7 +213,7 @@ body .cursive {
   left: 45%;
   width: 120px;
   height: 120px;
-  animation-delay: 0.8s;
+  animation-delay: 3s;
   animation-duration: 15s;
 }
 @media (max-width: 500px) {
@@ -213,41 +249,6 @@ body .cursive {
     transform: translateY(-900px) rotate(360deg);
     opacity: 0;
   }
-}
-.navbar-container {
-  background-color: black;
-  position: relative;
-  display: flex;
-  justify-content: center;
-}
-.navbar-container .nav-container {
-  width: 80%;
-  background-image: linear-gradient(black, black, firebrick, black, black, crimson, black, black, firebrick, black, black);
-  padding: 1.2% 0%;
-  text-shadow: 1px 1px #222528, 0 0 1em #222528, 0 0 0.2em #222528;
-  border-radius: 20px;
-}
-.navbar-container .nav-container ul {
-  display: flex;
-  list-style-type: none;
-  justify-content: space-between;
-}
-.navbar-container .nav-container li {
-  width: 30%;
-}
-.navbar-container .nav-container a {
-  border: 1px solid #282828;
-  text-decoration: none;
-  font-size: 1.4rem;
-  color: whitesmoke;
-  background-image: linear-gradient(firebrick, black, black, black, black, firebrick);
-  padding: 2% 25%;
-}
-.navbar-container .nav-container a:hover {
-  background-color: crimson;
-  background-image: none;
-  border: 1px solid black;
-  transition: 0.25s;
 }
 footer {
   display: flex;
@@ -564,6 +565,18 @@ footer #codesandbox-logo {
   border: 2px solid black;
   border-radius: 5px;
 }
+.projects .technologies-icons {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin: 1% 0 2%;
+}
+.projects .technologies-icons a {
+  width: 40px;
+  height: 40px;
+  color: lawngreen;
+}
 .projects img {
   width: 95%;
   border: 3.5px solid black;
@@ -575,6 +588,7 @@ footer #codesandbox-logo {
   color: white;
 }
 .projects h2 {
+  font-size: 2rem;
   color: lawngreen;
 }
 .projects .demo-button {
