@@ -11,8 +11,8 @@ const ProjectsComponent = () => {
             <section class="project-section">
                 <div class="projects">
                     <h2>Rick & Morty API</h2>
-                    <p>HTML5, CSS3, React.js</p>
-                    <a href="https://codesandbox.io/s/rick-and-morty-api-9zoix" rel="noopener noreferrer" target="_blank">
+                    <small>HTML5, CSS3, React.js</small>
+                    <a href="https://codesandbox.io/s/rick-and-morty-api-9zoix" className="project-img" rel="noopener noreferrer" target="_blank">
                         <img src="/images/Screenshot1.png" alt="Rick and Morty app" />
                     </a>
 
@@ -24,14 +24,14 @@ const ProjectsComponent = () => {
                     </div>
                     <p>Single Page Application with Client-Side Routing. This application consumes a 3rd party API based on the TV
           show Rick and Morty. It uses React Router and React forms.</p>
-                    <div className="demo-button">Demo</div>
+                    <a href="https://codesandbox.io/s/form-practice-4132020-t248m" className="demo-button" rel="noopener noreferrer" target="_blank">Demo</a>
                 </div>
 
                 <div class="projects">
                     <h2>Avengers React SPA</h2>
-                    <p>HTML5, CSS3, React.js</p>
-                    
-                    <a href="https://codesandbox.io/s/avengers-spa-e9m2x" rel="noopener noreferrer" target="_blank">
+                    <small>HTML5, CSS3, React.js</small>
+
+                    <a href="https://codesandbox.io/s/avengers-spa-e9m2x" className="project-img" rel="noopener noreferrer" target="_blank">
                         <img src="/images/Screenshot2.jpg" alt="Marvel Avengers app" />
                     </a>
                     <div className="technologies-icons">
@@ -43,15 +43,15 @@ const ProjectsComponent = () => {
 
                     <p>Single Page Application with Client-Side Routing. This application passes data to components rendered by
           React Router. It uses nested routes to display sub-nav views </p>
-                    <div className="demo-button">Demo</div>
+                    <a href="https://codesandbox.io/s/form-practice-4132020-t248m" className="demo-button" rel="noopener noreferrer" target="_blank">Demo</a>
                 </div>
 
                 <div class="projects">
 
                     <h2>To Do List</h2>
-                    <p>HTML5, CSS3, React.js</p>
-                    
-                    <a href="https://codesandbox.io/s/form-practice-4132020-t248m" rel="noopener noreferrer" target="_blank">
+                    <small>HTML5, CSS3, React.js</small>
+
+                    <a href="https://codesandbox.io/s/form-practice-4132020-t248m" className="project-img" rel="noopener noreferrer" target="_blank">
                         <img src="/images/Screenshot3.png" alt="To do list" />
                     </a>
                     <div className="technologies-icons">
@@ -61,13 +61,13 @@ const ProjectsComponent = () => {
                         <a href="http://www.css3.info" target="_blank" rel="noopener noreferrer">  <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="css3" class="svg-inline--fa fa-css3 fa-w-16 fa-4x" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M480 32l-64 368-223.3 80L0 400l19.6-94.8h82l-8 40.6L210 390.2l134.1-44.4 18.8-97.1H29.5l16-82h333.7l10.5-52.7H56.3l16.3-82H480z"></path></svg></a>
                     </div>
                     <p>React App made using stateful class components. This application adds and filters objects from state. It is a classic To Do App.<br />🎨👌😂</p>
-                    <div className="demo-button">Demo</div>
+                    <a href="https://codesandbox.io/s/form-practice-4132020-t248m" className="demo-button" rel="noopener noreferrer" target="_blank">Demo</a>
                 </div>
 
                 <div class="projects">
                     <h2>HTML Portfolio</h2>
-                    <p>HTML5, CSS3, LESS</p>
-                    <a href="https://dustinthewind505.github.io/" rel="noopener noreferrer" target="_blank">
+                    <small>HTML5, CSS3, LESS</small>
+                    <a href="https://dustinthewind505.github.io/" className="project-img" rel="noopener noreferrer" target="_blank">
                         <img src="/images/Screenshot4.png" alt="To do list" />
                     </a>
 
@@ -78,7 +78,7 @@ const ProjectsComponent = () => {
                     </div>
 
                     <p>An simple example portfolio I made for my students using only HTML and CSS/LESS. It uses flexbox and has and animated background.</p>
-                    <div className="demo-button">Demo</div>
+                    <a href="https://codesandbox.io/s/form-practice-4132020-t248m" className="demo-button" rel="noopener noreferrer" target="_blank">Demo</a>
                 </div>
 
             </section>

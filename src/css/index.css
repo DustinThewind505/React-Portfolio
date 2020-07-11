@@ -92,7 +92,7 @@ body .cursive {
   list-style-type: none;
   background: yellow;
   animation: animate 20s linear infinite;
-  top: 55%;
+  top: 50%;
 }
 .boxes li:nth-child(1) {
   left: 86%;
@@ -315,7 +315,6 @@ footer .zia-img {
 }
 footer .footer-right {
   display: flex;
-  margin-right: 0%;
 }
 footer .footer-right img {
   width: 35%;
@@ -335,6 +334,7 @@ footer .contact-links {
   align-items: center;
 }
 footer .contact-links a {
+  width: 70%;
   text-align: center;
 }
 footer .contact-links a:hover {
@@ -584,20 +584,37 @@ footer #codesandbox-logo {
   border-top-right-radius: 30px;
 }
 .projects p {
-  width: 90%;
+  width: 85%;
   color: white;
+  font-size: 1.1rem;
 }
 .projects h2 {
-  font-size: 2rem;
+  font-size: 3rem;
+  text-shadow: 2px 2px 2px #000;
+  letter-spacing: 0.5rem;
   color: lawngreen;
+  font-family: 'Bangers', cursive;
+}
+.projects small {
+  color: white;
 }
 .projects .demo-button {
+  color: black;
   margin: 1% 0;
   padding: 1% 5%;
   background-color: lawngreen;
+  border: 1px solid black;
+  text-decoration: none;
 }
 .projects .demo-button:hover {
   background-color: darkgoldenrod;
+  color: lawngreen;
+}
+.projects .project-img {
+  padding: 2.5% 0;
+}
+.projects .project-img:hover {
+  background-color: lawngreen;
 }
 .project-section {
   display: flex;
