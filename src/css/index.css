@@ -387,47 +387,6 @@ footer #codesandbox-logo {
   background-image: linear-gradient(crimson, darkred);
   border-radius: 800px;
 }
-.technologies {
-  color: lawngreen;
-  min-height: 20vh;
-  text-shadow: 2px 2px 2px #191b1d;
-}
-.technologies h3 {
-  font-size: 3rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.technologies p {
-  font-size: 1.1rem;
-}
-.technologies .technologies-icons {
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 5%;
-}
-.technologies .technologies-icons a {
-  width: 40px;
-  height: 40px;
-  color: lawngreen;
-}
-.technologies .technologies-left {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.technologies .technologies-left svg {
-  width: 12%;
-  padding: 2%;
-}
-.technologies .technologies-right {
-  width: 25%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
 .github-section {
   display: flex;
   justify-content: space-evenly;
@@ -527,7 +486,7 @@ footer #codesandbox-logo {
 }
 .about-section {
   width: 80%;
-  margin: 3% auto;
+  margin: 2% auto;
   padding: 2%;
   background-color: papayawhip;
   line-height: 2rem;
@@ -552,18 +511,67 @@ footer #codesandbox-logo {
   display: flex;
   align-items: center;
 }
-.projects-header {
+.projects-header-container {
   width: 100%;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#222528), to(#3c434a));
   margin: 0 auto;
   position: relative;
 }
-.projects-header h2 {
+.projects-header-container h2 {
   font-size: 6rem;
   text-shadow: 2px 2px 2px #000;
   letter-spacing: 0.5rem;
   color: lawngreen;
   font-family: 'Bangers', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.projects-header-container .technologies {
+  color: lawngreen;
+  background-color: #292929;
+  width: 80%;
+  margin: 2% auto;
+  padding: 2%;
+  text-align: start;
+  border: 1px solid black;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5);
+  display: flex;
+}
+.projects-header-container .technologies h3 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-shadow: 2px 2px 2px #000;
+}
+.projects-header-container .technologies p {
+  font-size: 1.1rem;
+}
+.projects-header-container .technologies .technologies-icons {
+  width: 200%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5%;
+  margin-left: -100%;
+}
+.projects-header-container .technologies .technologies-icons a {
+  width: 40px;
+  height: 40px;
+  color: lawngreen;
+}
+.projects-header-container .technologies .technologies-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.projects-header-container .technologies .technologies-left svg {
+  width: 12%;
+  padding: 2%;
+}
+.projects-header-container .technologies .technologies-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .projects {
   width: 47%;
