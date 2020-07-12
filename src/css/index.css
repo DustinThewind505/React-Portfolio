@@ -58,11 +58,10 @@ body .cursive {
   justify-content: center;
 }
 .navbar-container .nav-container {
-  width: 80%;
+  width: 100%;
   background-image: linear-gradient(black, black, firebrick, black, black, crimson, black, black, firebrick, black, black);
-  padding: 1.2% 0%;
+  padding: 1.45% 0%;
   text-shadow: 1px 1px #222528, 0 0 1em #222528, 0 0 0.2em #222528;
-  border-radius: 20px;
 }
 .navbar-container .nav-container ul {
   display: flex;
@@ -390,10 +389,8 @@ footer #codesandbox-logo {
 }
 .technologies {
   color: lawngreen;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#222528), to(#3c434a));
   min-height: 20vh;
   text-shadow: 2px 2px 2px #191b1d;
-  position: relative;
 }
 .technologies h3 {
   font-size: 3rem;
@@ -525,6 +522,8 @@ footer #codesandbox-logo {
 .about-section-container {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#222528), to(#3c434a));
   position: relative;
+  display: flex;
+  flex-direction: column;
 }
 .about-section {
   width: 80%;
@@ -536,7 +535,6 @@ footer #codesandbox-logo {
   border: 1px solid black;
   box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5);
   display: flex;
-  position: relative;
 }
 .about-section h2 {
   display: flex;
@@ -554,8 +552,21 @@ footer #codesandbox-logo {
   display: flex;
   align-items: center;
 }
+.projects-header {
+  width: 80%;
+  border: 1px solid black;
+  background-color: orangered;
+  margin: 2% auto;
+}
+.projects-header h2 {
+  font-size: 6rem;
+  text-shadow: 2px 2px 2px #000;
+  letter-spacing: 0.5rem;
+  color: lawngreen;
+  font-family: 'Bangers', cursive;
+}
 .projects {
-  width: 47%;
+  width: 33%;
   background-color: #292929;
   display: flex;
   flex-direction: column;
@@ -612,9 +623,6 @@ footer #codesandbox-logo {
 }
 .projects .project-img {
   padding: 2.5% 0;
-}
-.projects .project-img:hover {
-  background-color: lawngreen;
 }
 .project-section {
   display: flex;

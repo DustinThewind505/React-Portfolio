@@ -22,7 +22,7 @@ const Footer = props => {
                             <img src="/images/github.png" alt="github logo" />
                         </a>
                         <a href="https://codesandbox.io/u/DustinThewind505" target="_blank" rel="noopener noreferrer">
-                            <img id="codesandbox-logo" src="https://cdn.icon-icons.com/icons2/2098/PNG/512/codesandbox_icon_128900.png" alt="code sandbox logo" />
+                            <img id="codesandbox-logo" src="/images/Codesandbox.png" alt="code sandbox logo" />
                         </a>
                     </nav>
                 </div>

@@ -7,7 +7,10 @@ const ProjectsComponent = () => {
 
     return (
         <Fragment>
-            <Technologies />
+            <div className="projects-header">
+                <h2>Projects</h2>
+                <Technologies />
+            </div>
             <section class="project-section">
                 <div class="projects">
                     <h2>Rick & Morty API</h2>

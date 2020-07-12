@@ -9,7 +9,9 @@ const AboutComponent = () => {
 
     return (
         <Fragment>
-            <Bio />
+            
+                <Bio />
+
         </Fragment>
     )
 }

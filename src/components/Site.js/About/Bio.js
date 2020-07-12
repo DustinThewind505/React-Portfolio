@@ -5,7 +5,7 @@ const Bio = () => {
 
 
     return (
-        <section className="about-section-container">
+        
             <div className="about-section">
                 <div className="about-section-left">
                     <h2>
@@ -22,7 +22,7 @@ const Bio = () => {
                     <img src="https://media-exp1.licdn.com/dms/image/C5603AQGCMiHGoXykXg/profile-displayphoto-shrink_200_200/0?e=1595462400&v=beta&t=e69eZFEYhyVGEfs44BKlY6l56YKmFWqR3CPEAr-LQrY" alt="Dustin Guillen" />
                 </div>
             </div>
-        </section>
+
     )
 }
 

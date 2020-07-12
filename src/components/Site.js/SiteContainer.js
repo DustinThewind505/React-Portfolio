@@ -12,22 +12,24 @@ const Site = () => {
 
     return (
         <div>
-{/* ============ SQAURES animated background ============ */}
+            {/* ============ SQAURES animated background ============ */}
             <ul class="boxes">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
             <Header />
-            <Route path="/app/about" component={About} />
-            <Route path="/app/projects" component={Projects} />
+            <section className="about-section-container">
+                <Route path="/app/about" component={About} />
+                <Route path="/app/projects" component={Projects} />
+            </section>
             <Footer />
         </div>
     )
