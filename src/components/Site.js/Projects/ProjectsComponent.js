@@ -80,7 +80,7 @@ const ProjectsComponent = () => {
                     </div>
 
                     <p>An simple example portfolio I made for my students using only HTML and CSS/LESS. It uses flexbox and has and animated background.</p>
-                    <a href="https://codesandbox.io/s/form-practice-4132020-t248m" className="demo-button" rel="noopener noreferrer" target="_blank">Demo</a>
+                    <a href="https://dustinthewind505.github.io/" className="demo-button" rel="noopener noreferrer" target="_blank">Demo</a>
                 </div>
 
             </section>

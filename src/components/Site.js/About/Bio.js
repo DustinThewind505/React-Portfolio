@@ -19,7 +19,7 @@ const Bio = () => {
                         I'm currently attending <span className="cursive">Lambda School</span>  in beautiful Albuquerque, New Mexico. My primary focus is in front-end technologies such as ReactJs, while expanding my knowledge in testing and back-end development.
                         <br/>
                         <br/>
-                        <strong>WILLING TO RELOCATE</strong>
+                        <strong><u>WILLING TO RELOCATE</u></strong>
                 </p>
                 </div>
                 <div className="about-section-right">
