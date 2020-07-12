@@ -26,10 +26,8 @@ const Site = () => {
                 <li></li>
             </ul>
             <Header />
-            <section className="about-section-container">
                 <Route path="/app/about" component={About} />
                 <Route path="/app/projects" component={Projects} />
-            </section>
             <Footer />
         </div>
     )
