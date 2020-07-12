@@ -13,9 +13,13 @@ const Bio = () => {
                         <span className="cursive">About</span>
                     </h2>
                     <p>
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                <br />
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                        <strong>Dustin Guillen,<br/>Web Engineer and Avid Learner</strong>
+                        <br/>
+                        <br/>
+                        I'm currently attending <span className="cursive">Lambda School</span>  in beautiful Albuquerque, New Mexico. My primary focus is in front-end technologies such as ReactJs, while expanding my knowledge in testing and back-end development.
+                        <br/>
+                        <br/>
+                        <strong>WILLING TO RELOCATE</strong>
                 </p>
                 </div>
                 <div className="about-section-right">
