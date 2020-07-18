@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  border: 0;
+  border: 1px solid black;
 }
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
@@ -493,6 +493,7 @@ footer #codesandbox-logo {
   border: 1px solid black;
   box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5);
   display: flex;
+  justify-content: space-between;
 }
 .about-section h2 {
   display: flex;
@@ -500,6 +501,7 @@ footer #codesandbox-logo {
   font-size: 4rem;
 }
 .about-section p {
+  width: 80%;
   padding: 2%;
   line-height: 1.1rem;
 }
@@ -511,8 +513,13 @@ footer #codesandbox-logo {
   padding: 2%;
 }
 .about-section .about-section-right {
+  width: 20%;
   display: flex;
   align-items: center;
+  background-color: purple;
+}
+.about-section img {
+  border-radius: 75px;
 }
 .projects-header-container {
   width: 100%;
