@@ -292,7 +292,7 @@ footer {
   border-top: 1px solid black;
   background-color: firebrick;
 }
-@media (max-width: 1600px) {
+@media (max-width: 1400px) {
   footer {
     display: flex;
     align-items: center;
@@ -329,7 +329,7 @@ footer .footer-left img {
   footer .footer-left {
     width: 20%;
     position: absolute;
-    top: 1.2%;
+    top: 0.5%;
     right: 2%;
   }
 }
@@ -363,8 +363,9 @@ footer .zia-img {
 @media (max-width: 500px) {
   footer .zia-img {
     position: absolute;
-    top: 1%;
-    left: 3%;
+    top: 0.5%;
+    left: 2%;
+    margin: 0;
   }
 }
 footer .footer-right {
@@ -419,13 +420,13 @@ footer #codesandbox-logo {
 @media (max-width: 500px) {
   .home {
     min-height: 80vh;
-    font-size: 1rem;
-    line-height: 1.2rem;
+    font-size: 0.8rem;
+    line-height: 1rem;
     background-size: cover;
   }
 }
 .home p {
-  margin-top: 2%;
+  margin-bottom: 1%;
   text-shadow: 1px 1px #222528, 0 0 1em #222528, 0 0 0.2em #222528;
 }
 .home h1 {
@@ -433,22 +434,23 @@ footer #codesandbox-logo {
   justify-content: center;
   align-items: center;
   text-shadow: 2px 2px #222528;
-  font-size: 5rem;
-  margin-left: 8%;
+  font-size: 9rem;
+  margin: 5% 0 5% 5%;
 }
 @media (max-width: 500px) {
   .home h1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
+    margin: 7% 0 7% 4%;
   }
 }
 .home .cursive {
-  font-size: 7rem;
+  font-size: 11rem;
   font-family: 'Satisfy', cursive;
   font-weight: bold;
 }
 @media (max-width: 500px) {
   .home .cursive {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
 }
 .home .mouseIcon {
@@ -462,8 +464,8 @@ footer #codesandbox-logo {
   }
 }
 .home .home-header {
-  width: 75%;
-  margin: 10% auto 15%;
+  width: 88%;
+  margin: 3% auto 15%;
   padding: 3.5% 5% 1%;
   background-image: linear-gradient(crimson, darkred);
   border-radius: 800px;
@@ -473,7 +475,16 @@ footer #codesandbox-logo {
   .home .home-header {
     width: 95%;
     position: absolute;
-    top: 20%;
+    top: 10%;
+  }
+}
+.home .home-header a {
+  color: dodgerblue;
+  font-size: 4rem;
+}
+@media (max-width: 500px) {
+  .home .home-header a {
+    font-size: 1rem;
   }
 }
 .github-section {

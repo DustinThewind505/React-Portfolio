@@ -12,13 +12,13 @@
 
     @media @mobile {
         min-height: 80vh;
-        font-size: 1rem;
-        line-height: 1.2rem;
+        font-size: 0.8rem;
+        line-height: 1rem;
         background-size: cover;
     }
 
     p {
-        margin-top: 2%;
+        margin-bottom: 1%;
         text-shadow: 1px 1px #222528, 0 0 1em #222528, 0 0 0.2em #222528;
     }
     
@@ -27,21 +27,22 @@
         justify-content: center;
         align-items: center;
         text-shadow: 2px 2px #222528;
-        font-size: 5rem;
-        margin-left: 8%;
+        font-size: 9rem;
+        margin: 5% 0 5% 5%;
 
         @media @mobile {
-            font-size: 1.5rem;
+            font-size: 2rem;
+            margin: 7% 0 7% 4%;
         }
     }
 
     .cursive {
-        font-size: 7rem;
+        font-size: 11rem;
         font-family: 'Satisfy', cursive;
         font-weight: bold;
 
         @media @mobile {
-            font-size: 2.5rem;
+            font-size: 3rem;
         }
         
     }
@@ -57,8 +58,8 @@
     }
 
     .home-header {
-        width: 75%;
-        margin: 10% auto 15%;
+        width: 88%;
+        margin: 3% auto 15%;
         padding: 3.5% 5% 1%;
         background-image: linear-gradient(crimson, darkred);
         border-radius: 800px;
@@ -67,7 +68,16 @@
         @media @mobile {
             width: 95%;
             position: absolute;
-            top: 20%;
+            top: 10%;
+        }
+
+        a {
+            color: dodgerblue;
+            font-size: 4rem;
+            
+            @media @mobile {
+                font-size: 1rem;
+            }
         }
     }
 }
