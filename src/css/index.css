@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  border: 1px solid black;
+  border: 0;
 }
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
@@ -586,6 +586,7 @@ footer #codesandbox-logo {
 }
 @media (max-width: 500px) {
   .about-section {
+    width: 90%;
     flex-direction: column-reverse;
     align-items: center;
   }
@@ -600,11 +601,30 @@ footer #codesandbox-logo {
     display: none;
   }
 }
+.about-section .mobile-svg {
+  display: none;
+  z-index: 1;
+}
+@media (max-width: 500px) {
+  .about-section .mobile-svg {
+    display: flex;
+    justify-content: center;
+  }
+}
+.about-section .mobile-svg svg {
+  width: 15%;
+  margin-bottom: 5%;
+}
 .about-section p {
   width: 90%;
   padding: 2%;
   line-height: 1.7rem;
   font-size: 1.3rem;
+}
+@media (max-width: 500px) {
+  .about-section p {
+    width: 100%;
+  }
 }
 .about-section p span {
   font-size: 1.8rem;
@@ -614,18 +634,12 @@ footer #codesandbox-logo {
   padding: 2%;
 }
 @media (max-width: 500px) {
-  .about-section svg {
-    width: 50px;
-    height: 50px;
-  }
-}
-@media (max-width: 500px) {
   .about-section .about-section-left {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 80%;
+    width: 95%;
   }
 }
 .about-section .about-section-right {
@@ -635,12 +649,21 @@ footer #codesandbox-logo {
 }
 @media (max-width: 500px) {
   .about-section .about-section-right {
-    width: 80%;
+    width: 95%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -6%;
   }
 }
 .about-section img {
-  border: 1px solid black;
+  border: 2px solid black;
   border-radius: 75px;
+}
+@media (max-width: 500px) {
+  .about-section img {
+    width: 90%;
+    margin-top: -8%;
+  }
 }
 .projects-header-container {
   width: 100%;
