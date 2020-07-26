@@ -8,12 +8,12 @@
     color: white;
     padding-top: 0.5%;
     line-height: 2.5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    text-align: center;
 
     @media @mobile {
-        min-height: 100vh;
+        font-size: 1rem;
+        line-height: 1.2rem;
+        background-size: inherit;
     }
 
     p {
@@ -28,12 +28,21 @@
         text-shadow: 2px 2px #222528;
         font-size: 5rem;
         margin-left: 8%;
+
+        @media @mobile {
+            font-size: 1.5rem;
+        }
     }
 
     .cursive {
         font-size: 7rem;
         font-family: 'Satisfy', cursive;
         font-weight: bold;
+
+        @media @mobile {
+            font-size: 2.5rem;
+        }
+        
     }
       
     .mouseIcon {
@@ -48,6 +57,13 @@
         padding: 3.5% 1% 1%;
         background-image: linear-gradient(crimson, darkred);
         border-radius: 800px;
+
+        @media @mobile {
+            width: 95%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
     }
 }
 
