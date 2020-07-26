@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  border: 0;
+  border: 1px solid black;
 }
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
@@ -268,9 +268,10 @@ footer {
 @media (max-width: 500px) {
   footer {
     display: flex;
+    flex-direction: column-reverse;
     align-items: center;
-    background-color: purple;
-    min-height: 20%;
+    background-color: firebrick;
+    padding: 3% 0;
   }
 }
 footer div {
@@ -286,7 +287,9 @@ footer .footer-left img {
 }
 @media (max-width: 500px) {
   footer .footer-left {
-    width: 20%;
+    position: absolute;
+    top: 1.2%;
+    left: 3%;
   }
 }
 footer .footer-middle {
@@ -298,7 +301,7 @@ footer .footer-middle {
 }
 @media (max-width: 500px) {
   footer .footer-middle {
-    width: 60%;
+    width: 70%;
     font-size: 1rem;
   }
 }
@@ -307,7 +310,7 @@ footer .footer-middle small {
 }
 @media (max-width: 500px) {
   footer .footer-middle small {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     font-weight: bold;
   }
 }
@@ -318,7 +321,9 @@ footer .zia-img {
 }
 @media (max-width: 500px) {
   footer .zia-img {
-    display: none;
+    position: absolute;
+    top: 1%;
+    right: 4%;
   }
 }
 footer .footer-right {
@@ -329,12 +334,13 @@ footer .footer-right img {
 }
 @media (max-width: 500px) {
   footer .footer-right img {
-    width: 100%;
+    width: 70%;
   }
 }
 @media (max-width: 500px) {
   footer .footer-right {
-    width: 20%;
+    width: 100%;
+    margin-bottom: 2%;
   }
 }
 footer .contact-links {
@@ -353,6 +359,11 @@ footer #codesandbox-logo {
   width: 35%;
   text-align: center;
 }
+@media (max-width: 500px) {
+  footer #codesandbox-logo {
+    width: 70%;
+  }
+}
 .home {
   min-height: 90vh;
   background-image: url("https://myersandmyersrealestate.com/wp-content/uploads/2017/12/5-Points-Of-Interest-In-Albuquerque-NM.jpg");
@@ -368,7 +379,7 @@ footer #codesandbox-logo {
   .home {
     font-size: 1rem;
     line-height: 1.2rem;
-    background-size: inherit;
+    background-size: cover;
   }
 }
 .home p {
@@ -402,6 +413,11 @@ footer #codesandbox-logo {
   width: 50px;
   height: 50px;
   margin-left: 1%;
+}
+@media (max-width: 500px) {
+  .home .mouseIcon {
+    display: none;
+  }
 }
 .home .home-header {
   width: 75%;
