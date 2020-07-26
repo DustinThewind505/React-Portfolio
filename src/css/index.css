@@ -264,6 +264,14 @@ footer {
     z-index: 1;
   }
 }
+@media (max-width: 1600px) {
+  footer {
+    display: flex;
+    align-items: center;
+    background-color: gold;
+    z-index: 1;
+  }
+}
 footer div {
   width: 30%;
 }
@@ -357,6 +365,11 @@ footer #codesandbox-logo {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+@media (max-width: 500px) {
+  .home {
+    min-height: 100vh;
+  }
 }
 .home p {
   margin-top: 2%;
