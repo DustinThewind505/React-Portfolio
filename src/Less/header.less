@@ -6,10 +6,25 @@
   padding: 5% 0;
   line-height: 2.5rem;
 
+  @media @mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    padding-top: 10%;
+}
+
   p {
     margin-top: 2%;
     text-shadow: 1px 1px #222528, 0 0 1em #222528, 0 0 0.2em #222528;
     position: relative;
+
+    @media @mobile {
+      width: 90%;
+      text-align: center;
+      font-size: 0.8rem;
+    }
   }
 
   h1 {
@@ -19,10 +34,18 @@
     align-items: center;
     text-shadow: 2px 2px #222528;
     position: relative;
+
+    @media @mobile {
+      font-size: 1.5rem;
+    }
   }
 
   .cursive {
     font-size: 8rem;
+
+    @media @mobile {
+      font-size: 2.5rem;
+    }
   }
   
   .mouseIcon {
@@ -30,6 +53,12 @@
     height: 60px;
     margin-left: 1%;
     z-index: 0;
+
+    @media @mobile {
+      display: none;
+      width: 20px;
+      height: 20px;
+    }
   }
 }
 

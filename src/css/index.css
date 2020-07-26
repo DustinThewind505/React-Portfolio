@@ -32,10 +32,27 @@ body .cursive {
   padding: 5% 0;
   line-height: 2.5rem;
 }
+@media (max-width: 500px) {
+  .App-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    padding-top: 10%;
+  }
+}
 .App-header p {
   margin-top: 2%;
   text-shadow: 1px 1px #222528, 0 0 1em #222528, 0 0 0.2em #222528;
   position: relative;
+}
+@media (max-width: 500px) {
+  .App-header p {
+    width: 90%;
+    text-align: center;
+    font-size: 0.8rem;
+  }
 }
 .App-header h1 {
   font-size: 6rem;
@@ -45,14 +62,31 @@ body .cursive {
   text-shadow: 2px 2px #222528;
   position: relative;
 }
+@media (max-width: 500px) {
+  .App-header h1 {
+    font-size: 1.5rem;
+  }
+}
 .App-header .cursive {
   font-size: 8rem;
+}
+@media (max-width: 500px) {
+  .App-header .cursive {
+    font-size: 2.5rem;
+  }
 }
 .App-header .mouseIcon {
   width: 60px;
   height: 60px;
   margin-left: 1%;
   z-index: 0;
+}
+@media (max-width: 500px) {
+  .App-header .mouseIcon {
+    display: none;
+    width: 20px;
+    height: 20px;
+  }
 }
 .navbar-container {
   background-color: black;
@@ -286,10 +320,17 @@ footer .footer-left img {
   margin: 2%;
 }
 @media (max-width: 500px) {
+  footer .footer-left img {
+    width: 100%;
+    margin: 0;
+  }
+}
+@media (max-width: 500px) {
   footer .footer-left {
+    width: 20%;
     position: absolute;
     top: 1.2%;
-    left: 3%;
+    right: 2%;
   }
 }
 footer .footer-middle {
@@ -323,7 +364,7 @@ footer .zia-img {
   footer .zia-img {
     position: absolute;
     top: 1%;
-    right: 4%;
+    left: 3%;
   }
 }
 footer .footer-right {
@@ -377,6 +418,7 @@ footer #codesandbox-logo {
 }
 @media (max-width: 500px) {
   .home {
+    min-height: 80vh;
     font-size: 1rem;
     line-height: 1.2rem;
     background-size: cover;
@@ -542,10 +584,21 @@ footer #codesandbox-logo {
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 500px) {
+  .about-section {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
 .about-section h2 {
   display: flex;
   align-items: center;
   font-size: 4rem;
+}
+@media (max-width: 500px) {
+  .about-section h2 {
+    display: none;
+  }
 }
 .about-section p {
   width: 90%;
@@ -560,10 +613,30 @@ footer #codesandbox-logo {
   width: 9%;
   padding: 2%;
 }
+@media (max-width: 500px) {
+  .about-section svg {
+    width: 50px;
+    height: 50px;
+  }
+}
+@media (max-width: 500px) {
+  .about-section .about-section-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+  }
+}
 .about-section .about-section-right {
   width: 20%;
   display: flex;
   align-items: center;
+}
+@media (max-width: 500px) {
+  .about-section .about-section-right {
+    width: 80%;
+  }
 }
 .about-section img {
   border: 1px solid black;

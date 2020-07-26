@@ -17,11 +17,19 @@
     display: flex;
     justify-content: space-between;
 
+    @media @mobile {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
     h2 {
-        font-size: 4rem;
         display: flex;
         align-items: center;
         font-size: 4rem;
+
+        @media @mobile {
+            display: none;
+        }
     }
 
     p {
@@ -38,12 +46,32 @@
     svg {
         width: 9%;
         padding: 2%;
+        @media @mobile {
+            width: 50px;
+            height: 50px;
+        }
+    }
+
+    .about-section-left {
+        
+
+        @media @mobile {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            width: 80%;
+        }
     }
 
     .about-section-right {
         width: 20%;
         display: flex;
         align-items: center;
+
+        @media @mobile {
+            width: 80%;
+        }
     }
 
     img {
@@ -75,7 +103,6 @@
     .technologies {
         color: lawngreen;
         background-color: rgb(41, 41, 41);
-        //background-image: -webkit-gradient(linear,left top,left bottom,from(#222528),to(#3c434a));
         width: 80%;
         margin: 2% auto;
         padding: 2%;
