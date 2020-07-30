@@ -46,12 +46,15 @@ body .cursive {
   margin-top: 2%;
   text-shadow: 1px 1px #222528, 0 0 1em #222528, 0 0 0.2em #222528;
   position: relative;
+  width: 100%;
+  letter-spacing: 0.2rem;
 }
 @media (max-width: 500px) {
   .App-header p {
     width: 90%;
     text-align: center;
     font-size: 0.8rem;
+    letter-spacing: 0.05rem;
   }
 }
 .App-header h1 {
@@ -723,8 +726,7 @@ footer #codesandbox-logo {
   .projects-header-container .technologies h3 {
     font-size: 3rem;
     justify-content: center;
-    margin-top: -3%;
-    margin-bottom: 4%;
+    margin-bottom: 3%;
   }
 }
 .projects-header-container .technologies p {
