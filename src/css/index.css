@@ -55,7 +55,7 @@ body .cursive {
   }
 }
 .App-header h1 {
-  font-size: 6rem;
+  font-size: 5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -703,6 +703,15 @@ footer #codesandbox-logo {
   box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5);
   display: flex;
 }
+@media (max-width: 500px) {
+  .projects-header-container .technologies {
+    width: 95%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 0;
+  }
+}
 .projects-header-container .technologies h3 {
   font-size: 4rem;
   display: flex;
@@ -710,8 +719,21 @@ footer #codesandbox-logo {
   align-items: center;
   text-shadow: 2px 2px 2px #000;
 }
+@media (max-width: 500px) {
+  .projects-header-container .technologies h3 {
+    font-size: 3rem;
+    justify-content: center;
+    margin-top: -3%;
+    margin-bottom: 4%;
+  }
+}
 .projects-header-container .technologies p {
   font-size: 1.1rem;
+}
+@media (max-width: 500px) {
+  .projects-header-container .technologies p {
+    font-size: 0.8rem;
+  }
 }
 .projects-header-container .technologies .technologies-icons {
   width: 200%;
@@ -719,6 +741,11 @@ footer #codesandbox-logo {
   justify-content: space-evenly;
   margin-top: 5%;
   margin-left: -100%;
+}
+@media (max-width: 500px) {
+  .projects-header-container .technologies .technologies-icons {
+    margin-left: -50%;
+  }
 }
 .projects-header-container .technologies .technologies-icons a {
   width: 40px;
@@ -728,7 +755,6 @@ footer #codesandbox-logo {
 .projects-header-container .technologies .technologies-left {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
 }
 .projects-header-container .technologies .technologies-left svg {
   width: 12%;
@@ -757,10 +783,22 @@ footer #codesandbox-logo {
   align-items: flex-start;
   margin: 1% 0 2%;
 }
+@media (max-width: 500px) {
+  .projects .technologies-icons {
+    width: 95%;
+    margin-bottom: 5%;
+  }
+}
 .projects .technologies-icons a {
   width: 40px;
   height: 40px;
   color: lawngreen;
+}
+@media (max-width: 500px) {
+  .projects .technologies-icons a {
+    width: 25px;
+    height: 25px;
+  }
 }
 .projects img {
   width: 95%;
@@ -783,8 +821,18 @@ footer #codesandbox-logo {
   color: lawngreen;
   font-family: 'Bangers', cursive;
 }
+@media (max-width: 500px) {
+  .projects h2 {
+    font-size: 1rem;
+  }
+}
 .projects small {
   color: white;
+}
+@media (max-width: 500px) {
+  .projects small {
+    font-size: 0.6rem;
+  }
 }
 .projects .demo-button {
   color: black;
