@@ -47,14 +47,15 @@ body .cursive {
   text-shadow: 1px 1px #222528, 0 0 1em #222528, 0 0 0.2em #222528;
   position: relative;
   width: 100%;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.15rem;
 }
 @media (max-width: 500px) {
   .App-header p {
-    width: 90%;
+    width: 95%;
     text-align: center;
     font-size: 0.8rem;
-    letter-spacing: 0.05rem;
+    letter-spacing: 0.1rem;
+    margin-top: 5%;
   }
 }
 .App-header h1 {
