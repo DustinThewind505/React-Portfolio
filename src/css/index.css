@@ -622,6 +622,7 @@ footer #codesandbox-logo {
 }
 @media (max-width: 500px) {
   .about-section .mobile-svg {
+    font-size: 3.7rem;
     padding: 2%;
     margin-bottom: 2%;
     display: flex;
@@ -776,11 +777,17 @@ footer #codesandbox-logo {
   background-color: #292929;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  padding: 0.6% 0;
+  padding: 0.6% 0 0;
   margin: 0.5% 0;
   border: 2px solid black;
   border-radius: 5px;
+}
+@media (max-width: 500px) {
+  .projects {
+    padding-bottom: 1%;
+  }
 }
 .projects .technologies-icons {
   width: 50%;
@@ -818,7 +825,14 @@ footer #codesandbox-logo {
   font-size: 1.1rem;
   border-top: 2px solid black;
   margin-top: 0.5%;
+  margin-bottom: 1%;
   padding-top: 1%;
+}
+@media (max-width: 500px) {
+  .projects p {
+    font-size: 0.85rem;
+    margin-bottom: 5%;
+  }
 }
 .projects h2 {
   font-size: 3rem;
@@ -829,7 +843,8 @@ footer #codesandbox-logo {
 }
 @media (max-width: 500px) {
   .projects h2 {
-    font-size: 1rem;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
   }
 }
 .projects small {
@@ -837,7 +852,7 @@ footer #codesandbox-logo {
 }
 @media (max-width: 500px) {
   .projects small {
-    font-size: 0.6rem;
+    font-size: 0.5rem;
   }
 }
 .projects .demo-button {
