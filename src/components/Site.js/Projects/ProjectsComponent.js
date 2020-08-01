@@ -8,7 +8,7 @@ const ProjectsComponent = () => {
     return (
         <Fragment>
             <section className="projects-header-container">
-                    <Technologies />
+                <Technologies />
             </section>
             <section class="project-section">
                 <div class="projects">

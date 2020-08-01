@@ -622,12 +622,14 @@ footer #codesandbox-logo {
 }
 @media (max-width: 500px) {
   .about-section .mobile-svg {
+    padding: 2%;
+    margin-bottom: 2%;
     display: flex;
     justify-content: center;
   }
 }
 .about-section .mobile-svg svg {
-  width: 15%;
+  width: 11.5%;
   margin-bottom: 5%;
 }
 .about-section p {
@@ -658,7 +660,7 @@ footer #codesandbox-logo {
   }
 }
 .about-section .about-section-right {
-  width: 20%;
+  width: 50%;
   display: flex;
   align-items: center;
 }
@@ -671,6 +673,7 @@ footer #codesandbox-logo {
   }
 }
 .about-section img {
+  width: 100%;
   border: 2px solid black;
   border-radius: 75px;
 }
@@ -725,7 +728,7 @@ footer #codesandbox-logo {
 }
 @media (max-width: 500px) {
   .projects-header-container .technologies h3 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     justify-content: center;
     margin-bottom: 3%;
   }
