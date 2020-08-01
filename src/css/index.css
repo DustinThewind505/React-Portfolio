@@ -326,6 +326,7 @@ footer div {
   width: 30%;
 }
 footer .footer-left {
+  width: 30%;
   display: flex;
   justify-content: start;
 }
@@ -335,16 +336,15 @@ footer .footer-left img {
 }
 @media (max-width: 500px) {
   footer .footer-left img {
-    width: 100%;
-    margin: 0;
+    width: 80%;
+    margin: 0 0 0 10%;
   }
 }
 @media (max-width: 500px) {
   footer .footer-left {
-    width: 20%;
     position: absolute;
     top: 0.5%;
-    right: 2%;
+    right: 0;
   }
 }
 footer .footer-middle {
@@ -356,7 +356,7 @@ footer .footer-middle {
 }
 @media (max-width: 500px) {
   footer .footer-middle {
-    width: 70%;
+    width: 90%;
     font-size: 1rem;
   }
 }
