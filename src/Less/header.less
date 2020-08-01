@@ -79,6 +79,9 @@
     padding: 1.45% 0%;
     text-shadow: 1px 1px #222528, 0 0 1em #222528, 0 0 0.2em #222528;
 
+    @media @mobile {
+      background-image: linear-gradient( black, firebrick, black, black, crimson,  black, black, firebrick, black,);
+    }
 
     ul {
       display: flex;
@@ -97,6 +100,10 @@
       color: whitesmoke;
       background-image: linear-gradient(firebrick,  black, black,  black,   black, firebrick);
       padding: 2% 25%;
+
+      @media @mobile {
+        font-size: 1rem;
+      }
     }
 
     a:hover {

@@ -104,6 +104,11 @@ body .cursive {
   padding: 1.45% 0%;
   text-shadow: 1px 1px #222528, 0 0 1em #222528, 0 0 0.2em #222528;
 }
+@media (max-width: 500px) {
+  .navbar-container .nav-container {
+    background-image: linear-gradient(black, firebrick, black, black, crimson, black, black, firebrick, black);
+  }
+}
 .navbar-container .nav-container ul {
   display: flex;
   list-style-type: none;
@@ -119,6 +124,11 @@ body .cursive {
   color: whitesmoke;
   background-image: linear-gradient(firebrick, black, black, black, black, firebrick);
   padding: 2% 25%;
+}
+@media (max-width: 500px) {
+  .navbar-container .nav-container a {
+    font-size: 1rem;
+  }
 }
 .navbar-container .nav-container a:hover {
   background-color: crimson;
