@@ -17,7 +17,6 @@ const ProjectsComponent = () => {
                     <a href="https://codesandbox.io/s/rick-and-morty-api-9zoix" className="project-img" rel="noopener noreferrer" target="_blank">
                         <img src="/images/Screenshot1.png" alt="Rick and Morty app" />
                     </a>
-
                     <div className="technologies-icons">
                         <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" target="_blank" rel="noopener noreferrer">  <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="html5" class="svg-inline--fa fa-html5 fa-w-12 fa-4x" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"></path></svg></a>
                         <a href="http://www.css3.info" target="_blank" rel="noopener noreferrer">  <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="css3" class="svg-inline--fa fa-css3 fa-w-16 fa-4x" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M480 32l-64 368-223.3 80L0 400l19.6-94.8h82l-8 40.6L210 390.2l134.1-44.4 18.8-97.1H29.5l16-82h333.7l10.5-52.7H56.3l16.3-82H480z"></path></svg></a>
@@ -32,7 +31,6 @@ const ProjectsComponent = () => {
                 <div class="projects">
                     <h2>Avengers React SPA</h2>
                     <small>HTML5, CSS3, React.js</small>
-
                     <a href="https://codesandbox.io/s/avengers-spa-e9m2x" className="project-img" rel="noopener noreferrer" target="_blank">
                         <img src="/images/Screenshot2.jpg" alt="Marvel Avengers app" />
                     </a>

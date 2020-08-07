@@ -117,6 +117,11 @@ body .cursive {
 .navbar-container .nav-container li {
   width: 30%;
 }
+@media (max-width: 500px) {
+  .navbar-container .nav-container li {
+    width: 32%;
+  }
+}
 .navbar-container .nav-container a {
   border: 1px solid #282828;
   text-decoration: none;
@@ -127,7 +132,7 @@ body .cursive {
 }
 @media (max-width: 500px) {
   .navbar-container .nav-container a {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 }
 .navbar-container .nav-container a:hover {
@@ -761,7 +766,8 @@ footer #codesandbox-logo {
 }
 @media (max-width: 500px) {
   .projects-header-container .technologies .technologies-icons {
-    margin-left: -50%;
+    width: 100%;
+    margin-left: 0;
   }
 }
 .projects-header-container .technologies .technologies-icons a {
@@ -781,6 +787,7 @@ footer #codesandbox-logo {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 95%;
 }
 .projects {
   width: 47%;
