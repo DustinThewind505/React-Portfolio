@@ -804,6 +804,8 @@ footer #codesandbox-logo {
 @media (max-width: 500px) {
   .projects {
     padding-bottom: 1%;
+    justify-content: none;
+    height: 70vh;
   }
 }
 .projects .technologies-icons {
@@ -847,8 +849,9 @@ footer #codesandbox-logo {
 }
 @media (max-width: 500px) {
   .projects p {
+    height: 27vh;
     font-size: 0.85rem;
-    margin-bottom: 5%;
+    padding-top: 5%;
   }
 }
 .projects h2 {
@@ -860,7 +863,8 @@ footer #codesandbox-logo {
 }
 @media (max-width: 500px) {
   .projects h2 {
-    font-size: 1.5rem;
+    width: 95%;
+    font-size: 1.4rem;
     letter-spacing: 0.1rem;
   }
 }
@@ -873,6 +877,7 @@ footer #codesandbox-logo {
   }
 }
 .projects .demo-button {
+  width: 40%;
   color: black;
   margin: 1% 0;
   padding: 1% 5%;
