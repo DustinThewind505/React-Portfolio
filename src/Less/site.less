@@ -3,7 +3,6 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    
 }
 
 .about-section {
@@ -112,21 +111,7 @@
 .projects-header-container {
     width: 100%;
     background-image: -webkit-gradient(linear,left top,left bottom,from(#222528),to(#3c434a));
-    margin: 0 auto;
     position: relative;
-
-    
-
-    h2 {
-        font-size: 6rem;
-        text-shadow: 2px 2px 2px #000;
-        letter-spacing: 0.5rem;
-        color: lawngreen;
-        font-family: 'Bangers', cursive;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
 
     .technologies {
         color: lawngreen;
@@ -170,11 +155,10 @@
         }
     
         .technologies-icons {
-            width: 200%;
+            width: 100%;
             display: flex;
             justify-content: space-evenly;
             margin-top: 5%;
-            margin-left: -100%;
 
             @media @mobile {
                 width: 100%;
@@ -189,6 +173,7 @@
         }
     
         .technologies-left {
+            width: 60%;
             display: flex;
             flex-direction: column;
     
@@ -199,11 +184,14 @@
         }
         
         .technologies-right {
+            width: 40%;
             display: flex;
             flex-direction: column;
             justify-content: center;
 
-            width: 95%;
+            @media @mobile {
+                width: 95%;
+            }
         }
     }
 }

@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  border: 1px solid black;
+  border: 0;
 }
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
@@ -140,7 +140,6 @@ body .cursive {
 }
 .boxes li {
   position: absolute;
-  display: block;
   list-style-type: none;
   background: yellow;
   animation: animate 20s linear infinite;
@@ -693,18 +692,7 @@ footer #codesandbox-logo {
 .projects-header-container {
   width: 100%;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#222528), to(#3c434a));
-  margin: 0 auto;
   position: relative;
-}
-.projects-header-container h2 {
-  font-size: 6rem;
-  text-shadow: 2px 2px 2px #000;
-  letter-spacing: 0.5rem;
-  color: lawngreen;
-  font-family: 'Bangers', cursive;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .projects-header-container .technologies {
   color: lawngreen;
@@ -749,11 +737,10 @@ footer #codesandbox-logo {
   }
 }
 .projects-header-container .technologies .technologies-icons {
-  width: 200%;
+  width: 100%;
   display: flex;
   justify-content: space-evenly;
   margin-top: 5%;
-  margin-left: -100%;
 }
 @media (max-width: 500px) {
   .projects-header-container .technologies .technologies-icons {
@@ -767,6 +754,7 @@ footer #codesandbox-logo {
   color: lawngreen;
 }
 .projects-header-container .technologies .technologies-left {
+  width: 60%;
   display: flex;
   flex-direction: column;
 }
@@ -775,10 +763,15 @@ footer #codesandbox-logo {
   padding: 2%;
 }
 .projects-header-container .technologies .technologies-right {
+  width: 40%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 95%;
+}
+@media (max-width: 500px) {
+  .projects-header-container .technologies .technologies-right {
+    width: 95%;
+  }
 }
 .projects {
   width: 47%;
