@@ -1,10 +1,10 @@
 .App-header {
   background-image: linear-gradient(crimson, darkred);
-  text-align: center;
-  font-size: calc(10px + 2vmin);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   color: white;
-  padding: 5% 0;
-  line-height: 2.5rem;
+  padding: 1% 0 3.5%;
 
   @media @mobile {
     display: flex;
@@ -16,11 +16,12 @@
 }
 
   p {
-    margin-top: 2%;
     text-shadow: 1px 1px #222528, 0 0 1em #222528, 0 0 0.2em #222528;
     position: relative;
-    width: 100%;
+    width: 80%;
+    font-size: 1.6rem;
     letter-spacing: 0.15rem;
+    margin-top: -1%;
 
     @media @mobile {
       width: 95%;
@@ -34,7 +35,6 @@
   h1 {
     font-size: 5rem;
     display: flex;
-    justify-content: center;
     align-items: center;
     text-shadow: 2px 2px #222528;
     position: relative;
@@ -53,15 +53,12 @@
   }
   
   .mouseIcon {
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     margin-left: 1%;
-    z-index: 0;
 
     @media @mobile {
       display: none;
-      width: 20px;
-      height: 20px;
     }
   }
 }
