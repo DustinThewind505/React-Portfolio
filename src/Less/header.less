@@ -84,10 +84,14 @@
       display: flex;
       list-style-type: none;
       justify-content: space-between;
+
+      @media @mobile {
+        justify-content: space-evenly;
+      }
     }
 
     li {
-    width: 30%;
+      width: 30%;
 
       @media @mobile {
         width: 32%;
@@ -105,6 +109,10 @@
       @media @mobile {
         font-size: 0.9rem;
       }
+    }
+
+    a:last-child {
+      margin-right: 5%;
     }
 
     a:hover {
