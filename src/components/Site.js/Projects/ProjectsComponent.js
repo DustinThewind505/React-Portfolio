@@ -48,7 +48,7 @@ const ProjectsComponent = () => {
 
                 <div class="projects">
 
-                    <h2>To Do List</h2>
+                    <h2>To Do<br/>List</h2>
                     <small>HTML5, CSS3, React.js</small>
 
                     <a href="https://codesandbox.io/s/class-components-webpt13-6l6zy" className="project-img" rel="noopener noreferrer" target="_blank">
@@ -65,7 +65,7 @@ const ProjectsComponent = () => {
                 </div>
 
                 <div class="projects">
-                    <h2>HTML Portfolio</h2>
+                    <h2>HTML<br/>Portfolio</h2>
                     <small>HTML5, CSS3, LESS</small>
                     <a href="https://dustinthewind505.github.io/" className="project-img" rel="noopener noreferrer" target="_blank">
                         <img src="/images/Screenshot4.png" alt="To do list" />

@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  border: 1px solid black;
+  border: 0;
 }
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
@@ -50,7 +50,7 @@ body .cursive {
   letter-spacing: 0.15rem;
   margin-top: -1%;
 }
-@media (max-width: 1400px) {
+@media (max-width: 800px) {
   .App-header p {
     font-size: 1.3rem;
   }
@@ -71,9 +71,9 @@ body .cursive {
   text-shadow: 2px 2px #222528;
   position: relative;
 }
-@media (max-width: 1400px) {
+@media (max-width: 800px) {
   .App-header h1 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 }
 @media (max-width: 500px) {
@@ -84,9 +84,9 @@ body .cursive {
 .App-header .cursive {
   font-size: 8rem;
 }
-@media (max-width: 1400px) {
+@media (max-width: 800px) {
   .App-header .cursive {
-    font-size: 7rem;
+    font-size: 5.5rem;
   }
 }
 @media (max-width: 500px) {
@@ -98,6 +98,12 @@ body .cursive {
   width: 70px;
   height: 70px;
   margin-left: 1%;
+}
+@media (max-width: 800px) {
+  .App-header .mouseIcon {
+    width: 50px;
+    height: 50px;
+  }
 }
 @media (max-width: 500px) {
   .App-header .mouseIcon {
@@ -126,6 +132,11 @@ body .cursive {
   list-style-type: none;
   justify-content: space-between;
 }
+@media (max-width: 800px) {
+  .navbar-container .nav-container ul {
+    justify-content: space-around;
+  }
+}
 @media (max-width: 500px) {
   .navbar-container .nav-container ul {
     justify-content: space-evenly;
@@ -141,6 +152,11 @@ body .cursive {
   color: whitesmoke;
   background-image: linear-gradient(firebrick, black, black, black, black, firebrick);
   padding: 2% 25%;
+}
+@media (max-width: 800px) {
+  .navbar-container .nav-container a {
+    font-size: 1.1rem;
+  }
 }
 @media (max-width: 500px) {
   .navbar-container .nav-container a {
@@ -465,9 +481,9 @@ footer #codesandbox-logo {
   font-size: 9rem;
   margin: 5% 0 5% 5%;
 }
-@media (max-width: 1400px) {
+@media (max-width: 800px) {
   .home h1 {
-    font-size: 5rem;
+    font-size: 3.5rem;
   }
 }
 @media (max-width: 500px) {
@@ -481,9 +497,9 @@ footer #codesandbox-logo {
   font-family: 'Satisfy', cursive;
   font-weight: bold;
 }
-@media (max-width: 1400px) {
+@media (max-width: 800px) {
   .home .cursive {
-    font-size: 10rem;
+    font-size: 4.5rem;
   }
 }
 @media (max-width: 500px) {
@@ -508,6 +524,11 @@ footer #codesandbox-logo {
   background-image: linear-gradient(crimson, darkred);
   border-radius: 800px;
   text-align: center;
+}
+@media (max-width: 800px) {
+  .home .home-header {
+    width: ;
+  }
 }
 @media (max-width: 500px) {
   .home .home-header {
@@ -734,6 +755,11 @@ footer #codesandbox-logo {
   box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5);
   display: flex;
 }
+@media (max-width: 800px) {
+  .projects-header-container .technologies {
+    width: 97%;
+  }
+}
 @media (max-width: 500px) {
   .projects-header-container .technologies {
     width: 95%;
@@ -759,6 +785,11 @@ footer #codesandbox-logo {
 }
 .projects-header-container .technologies p {
   font-size: 1.1rem;
+}
+@media (max-width: 800px) {
+  .projects-header-container .technologies p {
+    font-size: 1.05rem;
+  }
 }
 @media (max-width: 500px) {
   .projects-header-container .technologies p {
@@ -791,6 +822,11 @@ footer #codesandbox-logo {
   width: 12%;
   padding: 2%;
 }
+@media (max-width: 800px) {
+  .projects-header-container .technologies .technologies-left {
+    width: 60%;
+  }
+}
 @media (max-width: 500px) {
   .projects-header-container .technologies .technologies-left {
     width: 95%;
@@ -801,6 +837,13 @@ footer #codesandbox-logo {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+@media (max-width: 800px) {
+  .projects-header-container .technologies .technologies-right {
+    width: 5
+                
+                0%;
+  }
 }
 @media (max-width: 500px) {
   .projects-header-container .technologies .technologies-right {
@@ -832,6 +875,11 @@ footer #codesandbox-logo {
   justify-content: space-evenly;
   align-items: flex-start;
   margin: 1% 0 2%;
+}
+@media (max-width: 800px) {
+  .projects .technologies-icons {
+    width: 100%;
+  }
 }
 @media (max-width: 500px) {
   .projects .technologies-icons {
@@ -880,6 +928,12 @@ footer #codesandbox-logo {
   letter-spacing: 0.5rem;
   color: lawngreen;
   font-family: 'Bangers', cursive;
+}
+@media (max-width: 800px) {
+  .projects h2 {
+    width: 90%;
+    font-size: 2.5rem;
+  }
 }
 @media (max-width: 500px) {
   .projects h2 {
