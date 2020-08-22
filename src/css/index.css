@@ -344,8 +344,7 @@ footer {
 }
 @media (max-width: 850px) {
   footer {
-    display: flex;
-    align-items: center;
+    height: 20vh;
     background-color: blue;
   }
 }
@@ -369,6 +368,13 @@ footer .footer-left {
 footer .footer-left img {
   width: 50%;
   margin: 2%;
+}
+@media (max-width: 850px) {
+  footer .footer-left img {
+    width: 90%;
+    height: 35px;
+    margin: 0 0 0 10%;
+  }
 }
 @media (max-width: 500px) {
   footer .footer-left img {
@@ -411,6 +417,11 @@ footer .zia-img {
   margin: 1% 0%;
   border: 1px solid black;
 }
+@media (max-width: 850px) {
+  footer .zia-img {
+    width: 15%;
+  }
+}
 @media (max-width: 500px) {
   footer .zia-img {
     position: absolute;
@@ -424,6 +435,11 @@ footer .footer-right {
 }
 footer .footer-right img {
   width: 35%;
+}
+@media (max-width: 850px) {
+  footer .footer-right img {
+    width: 70%;
+  }
 }
 @media (max-width: 500px) {
   footer .footer-right img {
@@ -452,6 +468,11 @@ footer #codesandbox-logo {
   width: 35%;
   text-align: center;
 }
+@media (max-width: 850px) {
+  footer #codesandbox-logo {
+    width: 70%;
+  }
+}
 @media (max-width: 500px) {
   footer #codesandbox-logo {
     width: 70%;
@@ -467,11 +488,6 @@ footer #codesandbox-logo {
   padding-top: 0.5%;
   line-height: 2.5rem;
   text-align: center;
-}
-@media (max-width: 850px) {
-  .home {
-    min-height: 100vh;
-  }
 }
 @media (max-width: 500px) {
   .home {
@@ -539,14 +555,12 @@ footer #codesandbox-logo {
 }
 @media (max-width: 850px) {
   .home .home-header {
-    width: ;
+    margin-top: 0;
   }
 }
 @media (max-width: 500px) {
   .home .home-header {
     width: 95%;
-    position: absolute;
-    top: 10%;
   }
 }
 .home .home-header a {

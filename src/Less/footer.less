@@ -12,8 +12,7 @@ footer {
     }
 
     @media @tablet {
-        display: flex;
-        align-items: center;
+        height: 20vh;
         background-color: blue;
 
     }
@@ -41,6 +40,12 @@ footer {
         img {
             width: 50%;
             margin: 2%;
+
+            @media @tablet {
+                width: 90%;
+                height: 35px;
+                margin: 0 0 0 10%;
+            }
 
             @media @mobile {
                 width: 80%;
@@ -84,6 +89,10 @@ footer {
         margin: 1% 0%;
         border: 1px solid black;
 
+        @media @tablet {
+            width: 15%;
+        }
+
         @media @mobile {
             position: absolute;
             top: 0.5%;
@@ -98,6 +107,10 @@ footer {
 
         img {
             width: 35%;
+
+            @media @tablet {
+                width: 70%;
+            }
 
             @media @mobile {
                 width: 70%;
@@ -128,6 +141,10 @@ footer {
     #codesandbox-logo {
         width: 35%;
         text-align: center;
+
+        @media @tablet {
+            width: 70%;
+        }
 
         @media @mobile {
             width: 70%;
