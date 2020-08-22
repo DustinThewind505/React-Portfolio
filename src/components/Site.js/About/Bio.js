@@ -13,7 +13,7 @@ const Bio = () => {
                         <span className="cursive">About</span>
                     </h2>
                     <p>
-                        <strong>Dustin Guillen,<br />Software Engineer and Avid Learner</strong>
+                        <strong>Dustin Guillen,<br />Web Developer and Software Engineer</strong>
                         <br />
                         <br />
                         I'm currently attending <span className="cursive">Lambda School</span>  in beautiful Albuquerque, New Mexico. My primary focus is in front-end technologies such as ReactJs, while expanding my knowledge in testing and back-end development.
