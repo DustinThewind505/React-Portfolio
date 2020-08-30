@@ -517,12 +517,13 @@ footer #codesandbox-logo {
   text-shadow: 1px 1px #222528, 0 0 1em #222528, 0 0 0.2em #222528;
 }
 .home h1 {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   text-shadow: 2px 2px #222528;
   font-size: 9rem;
-  margin: 5% 0 5% 5%;
+  margin: 5% 0 5% 2%;
 }
 @media (max-width: 850px) {
   .home h1 {
@@ -531,7 +532,7 @@ footer #codesandbox-logo {
 }
 @media (max-width: 500px) {
   .home h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 7% 0 7% 4%;
   }
 }
@@ -542,7 +543,7 @@ footer #codesandbox-logo {
 }
 @media (max-width: 850px) {
   .home .cursive {
-    font-size: 4.5rem;
+    font-size: 5.5rem;
   }
 }
 @media (max-width: 500px) {
@@ -561,7 +562,7 @@ footer #codesandbox-logo {
   }
 }
 .home .home-header {
-  width: 88%;
+  width: 90%;
   margin: 3% auto 15%;
   padding: 3.5% 5% 1%;
   background-image: linear-gradient(crimson, darkred);
@@ -586,7 +587,8 @@ footer #codesandbox-logo {
 }
 @media (max-width: 850px) {
   .home .home-header a {
-    font-size: 3rem;
+    font-size: 3.5rem;
+    letter-spacing: 0.1rem;
   }
 }
 @media (max-width: 500px) {
@@ -762,7 +764,7 @@ footer #codesandbox-logo {
 }
 @media (max-width: 850px) {
   .about-section p span {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
   }
 }
 .about-section svg {
