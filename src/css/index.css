@@ -52,7 +52,8 @@ body .cursive {
 }
 @media (max-width: 850px) {
   .App-header p {
-    font-size: 1.3rem;
+    width: 90%;
+    font-size: 1.1rem;
   }
 }
 @media (max-width: 500px) {
@@ -65,15 +66,17 @@ body .cursive {
   }
 }
 .App-header h1 {
+  width: 100%;
   font-size: 5rem;
   display: flex;
+  justify-content: center;
   align-items: center;
   text-shadow: 2px 2px #222528;
   position: relative;
 }
 @media (max-width: 850px) {
   .App-header h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 }
 @media (max-width: 500px) {
@@ -86,7 +89,7 @@ body .cursive {
 }
 @media (max-width: 850px) {
   .App-header .cursive {
-    font-size: 5.5rem;
+    font-size: 4.5rem;
   }
 }
 @media (max-width: 500px) {
@@ -101,8 +104,8 @@ body .cursive {
 }
 @media (max-width: 850px) {
   .App-header .mouseIcon {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
   }
 }
 @media (max-width: 500px) {
@@ -699,6 +702,11 @@ footer #codesandbox-logo {
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 850px) {
+  .about-section {
+    width: 95%;
+  }
+}
 @media (max-width: 500px) {
   .about-section {
     width: 90%;
@@ -739,6 +747,11 @@ footer #codesandbox-logo {
   line-height: 1.7rem;
   font-size: 1.3rem;
 }
+@media (max-width: 850px) {
+  .about-section p {
+    font-size: 1.1rem;
+  }
+}
 @media (max-width: 500px) {
   .about-section p {
     width: 100%;
@@ -747,17 +760,33 @@ footer #codesandbox-logo {
 .about-section p span {
   font-size: 1.8rem;
 }
+@media (max-width: 850px) {
+  .about-section p span {
+    font-size: 1.3rem;
+  }
+}
 .about-section svg {
   width: 9%;
   padding: 2%;
 }
+@media (max-width: 850px) {
+  .about-section svg {
+    width: 12%;
+  }
+}
+@media (max-width: 850px) {
+  .about-section .about-section-left {
+    width: 50%;
+    background-color: none;
+  }
+}
 @media (max-width: 500px) {
   .about-section .about-section-left {
+    width: 95%;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 95%;
   }
 }
 .about-section .about-section-right {
