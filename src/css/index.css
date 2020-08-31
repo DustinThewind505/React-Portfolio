@@ -58,7 +58,7 @@ body .cursive {
 }
 @media (max-width: 500px) {
   .App-header p {
-    width: 95%;
+    width: 90%;
     text-align: center;
     font-size: 0.8rem;
     letter-spacing: 0.1rem;
@@ -352,7 +352,7 @@ footer {
 }
 @media (max-width: 850px) {
   footer {
-    background-color: none;
+    padding-top: 0.3%;
   }
 }
 @media (max-width: 500px) {
@@ -467,24 +467,20 @@ footer .contact-links {
 footer .contact-links a {
   width: 70%;
   text-align: center;
+  padding-top: 2%;
 }
 footer .contact-links a:hover {
   box-shadow: 5px 5px 5px black;
   background-color: crimson;
 }
+@media (max-width: 850px) {
+  footer .codesandbox-logo {
+    display: none;
+  }
+}
 footer #codesandbox-logo {
   width: 35%;
   text-align: center;
-}
-@media (max-width: 850px) {
-  footer #codesandbox-logo {
-    width: 70%;
-  }
-}
-@media (max-width: 500px) {
-  footer #codesandbox-logo {
-    width: 70%;
-  }
 }
 .home {
   min-height: 90vh;
@@ -868,7 +864,7 @@ footer #codesandbox-logo {
 }
 @media (max-width: 850px) {
   .projects-header-container .technologies p {
-    font-size: 1.05rem;
+    font-size: 0.95rem;
   }
 }
 @media (max-width: 500px) {
@@ -954,16 +950,16 @@ footer #codesandbox-logo {
 }
 @media (max-width: 850px) {
   .projects {
+    height: 90%;
     padding-bottom: 1%;
     justify-content: none;
-    height: 600px;
   }
 }
 @media (max-width: 500px) {
   .projects {
+    height: 450px;
     padding-bottom: 1%;
     justify-content: none;
-    height: 450px;
   }
 }
 .projects .technologies-icons {
