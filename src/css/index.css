@@ -889,9 +889,21 @@ footer #codesandbox-logo {
   }
 }
 .projects-header-container .technologies .technologies-icons a {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   color: lawngreen;
+}
+@media (max-width: 850px) {
+  .projects-header-container .technologies .technologies-icons a {
+    width: 35px;
+    height: 35px;
+  }
+}
+@media (max-width: 850px) {
+  .projects-header-container .technologies .technologies-icons a {
+    width: 40px;
+    height: 40px;
+  }
 }
 .projects-header-container .technologies .technologies-left {
   width: 60%;
@@ -920,9 +932,7 @@ footer #codesandbox-logo {
 }
 @media (max-width: 850px) {
   .projects-header-container .technologies .technologies-right {
-    width: 5
-                
-                0%;
+    width: 50%;
   }
 }
 @media (max-width: 500px) {
@@ -941,6 +951,13 @@ footer #codesandbox-logo {
   margin: 0.5% 0;
   border: 2px solid black;
   border-radius: 5px;
+}
+@media (max-width: 850px) {
+  .projects {
+    padding-bottom: 1%;
+    justify-content: none;
+    height: 600px;
+  }
 }
 @media (max-width: 500px) {
   .projects {
@@ -996,11 +1013,15 @@ footer #codesandbox-logo {
   display: flex;
   align-items: center;
 }
+@media (max-width: 850px) {
+  .projects p {
+    font-size: 0.85rem;
+    padding-top: 5%;
+  }
+}
 @media (max-width: 500px) {
   .projects p {
     height: 50%;
-    font-size: 0.85rem;
-    padding-top: 5%;
   }
 }
 .projects h2 {
