@@ -347,13 +347,13 @@ footer {
   footer {
     display: flex;
     align-items: center;
-    background-color: gold;
+    background-color: none;
   }
 }
 @media (max-width: 850px) {
   footer {
     height: 20vh;
-    background-color: blue;
+    background-color: none;
   }
 }
 @media (max-width: 500px) {
@@ -500,7 +500,7 @@ footer #codesandbox-logo {
 }
 @media (max-width: 850px) {
   .home {
-    font-size: 1.6rem;
+    font-size: 1.1rem;
     line-height: 1.7rem;
   }
 }
@@ -518,16 +518,16 @@ footer #codesandbox-logo {
 }
 .home h1 {
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
   text-shadow: 2px 2px #222528;
   font-size: 9rem;
   margin: 5% 0 5% 2%;
 }
 @media (max-width: 850px) {
   .home h1 {
-    font-size: 3.5rem;
+    margin-left: 0;
+    width: 90%;
+    font-size: 3rem;
   }
 }
 @media (max-width: 500px) {
@@ -543,7 +543,7 @@ footer #codesandbox-logo {
 }
 @media (max-width: 850px) {
   .home .cursive {
-    font-size: 5.5rem;
+    font-size: 4rem;
   }
 }
 @media (max-width: 500px) {
@@ -556,7 +556,7 @@ footer #codesandbox-logo {
   height: 50px;
   margin-left: 1%;
 }
-@media (max-width: 500px) {
+@media (max-width: 850px) {
   .home .mouseIcon {
     display: none;
   }
@@ -572,7 +572,7 @@ footer #codesandbox-logo {
 @media (max-width: 850px) {
   .home .home-header {
     margin: 1% auto;
-    padding: 2.5% 5%;
+    padding: 2.5%;
   }
 }
 @media (max-width: 500px) {
@@ -587,8 +587,7 @@ footer #codesandbox-logo {
 }
 @media (max-width: 850px) {
   .home .home-header a {
-    font-size: 3.5rem;
-    letter-spacing: 0.1rem;
+    font-size: 2.5rem;
   }
 }
 @media (max-width: 500px) {
