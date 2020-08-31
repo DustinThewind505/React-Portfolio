@@ -3,36 +3,45 @@
     background-image: url("https://myersandmyersrealestate.com/wp-content/uploads/2017/12/5-Points-Of-Interest-In-Albuquerque-NM.jpg");
     background-repeat: no-repeat;
     background-size: 101%;
-    text-align: center;
     font-size: 2rem;
     color: white;
-    padding-top: 0.5%;
+    padding-top: 5%;
     line-height: 2.5rem;
-    text-align: center;
-
-    @media @tablet {
-        font-size: 1.1rem;
-        line-height: 1.7rem;
-    }
 
     @media @mobile {
         min-height: 80vh;
-        font-size: 0.8rem;
-        line-height: 1rem;
         background-size: cover;
     }
 
-    p {
-        margin-bottom: 1%;
-        text-shadow: 1px 1px #222528, 0 0 1em #222528, 0 0 0.2em #222528;
+    .home-header {
+        width: 90%;
+        background-image: linear-gradient(crimson, darkred);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 3% auto 15%;
+        padding: 3.5% 5% 2%;
+        border: 1px solid black;
+        border-radius: 800px;
+
+        @media @tablet {
+            margin: 1% auto;
+            padding: 2.5%;
+        }
+
+        @media @mobile {
+            width: 95%;
+            margin-top: 30%;
+        }
+
     }
     
     h1 {
         width: 100%;
         text-align: center;
         text-shadow: 2px 2px #222528;
-        font-size: 9rem;
-        margin: 5% 0 5% 2%;
+        font-size: 7.5rem;
+        margin: 5% 2% 5% 0;
 
         @media @tablet {
             margin-left: 0;
@@ -47,12 +56,12 @@
     }
 
     .cursive {
-        font-size: 11rem;
+        font-size: 12rem;
         font-family: 'Satisfy', cursive;
         font-weight: bold;
 
         @media @tablet {
-            font-size: 4rem;
+            font-size: 4.2rem;
         }
 
         @media @mobile {
@@ -71,37 +80,34 @@
         }
     }
 
-    .home-header {
-        width: 90%;
-        margin: 3% auto 15%;
-        padding: 3.5% 5% 1%;
-        background-image: linear-gradient(crimson, darkred);
-        border-radius: 800px;
-        text-align: center;
+    p {
+        margin-bottom: 1%;
+        text-shadow: 1px 1px #222528, 0 0 1em #222528, 0 0 0.2em #222528;
 
         @media @tablet {
-            margin: 1% auto;
-            padding: 2.5%;
+            font-size: 1.1rem;
+            line-height: 1.7rem;
         }
 
         @media @mobile {
-            width: 95%;
-            margin-top: 30%;
-        }
-
-        a {
-            color: dodgerblue;
-            font-size: 4rem;
-
-            @media @tablet {
-                font-size: 2.5rem;
-            }
-            
-            @media @mobile {
-                font-size: 1rem;
-            }
+            font-size: 0.8rem;
+            line-height: 1rem;
         }
     }
+
+    a {
+        color: dodgerblue;
+        font-size: 4rem;
+
+        @media @tablet {
+            font-size: 2.5rem;
+        }
+        
+        @media @mobile {
+            font-size: 1rem;
+        }
+    }
+
 }
 
 
