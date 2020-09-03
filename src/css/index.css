@@ -680,7 +680,9 @@ footer .contact-links a:hover {
 }
 @media (max-width: 850px) {
   .home .home-header {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding-top: 1.5%;
     padding-bottom: 2.5%;
   }
@@ -693,6 +695,8 @@ footer .contact-links a:hover {
 }
 .home .home-header div {
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 .home h1 {
   width: 100%;
