@@ -13,7 +13,7 @@ const Home = () => {
         <Fragment>
             <div className="home">
                 <div className="home-header">
-                    <h1><span className="cursive">DustinGuillen</span>.dev<span className="mouseIcon"></span></h1>
+                    <h1><span className="cursive">DustinGuillen</span>.dev</h1>
                     <p>Web Developer passionate about Pixel Perfect Design, making Scalable Sites, and writing Clean code.</p>
                     <NavLink to="/app/about/">Explore</NavLink>
                 </div>

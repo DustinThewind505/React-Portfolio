@@ -15,17 +15,17 @@
     .home-header {
         width: 90%;
         background-image: linear-gradient(crimson, darkred);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         margin: 3% auto 15%;
-        padding: 3.5% 5% 2%;
+        padding: 2.5% 5% 1%;
         border: 1px solid black;
-        border-radius: 800px;
+        border-radius: 500px;
 
         @media @tablet {
-            margin: 1% auto;
-            padding: 2.5%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 1.5%;
+            padding-bottom: 2.5%;
         }
 
         @media @mobile {
@@ -37,74 +37,72 @@
     
     h1 {
         width: 100%;
-        text-align: center;
         text-shadow: 2px 2px #222528;
-        font-size: 100%;
-        margin: 5% 2% 5% 0;
+        font-size: 9.5rem;
+        margin: 5% 0 6%;
 
         @media @tablet {
-            margin-left: 0;
             width: 90%;
-            font-size: 3rem;
+            font-size: 4rem;
         }
 
         @media @mobile {
-            font-size: 1.5rem;
-            margin: 7% 0 7% 4%;
+            font-size: 2.5rem;
         }
     }
 
     .cursive {
-        font-size: 12rem;
+        font-size: 17rem;
         font-family: 'Satisfy', cursive;
         font-weight: bold;
 
         @media @tablet {
-            font-size: 4.2rem;
+            font-size: 7rem;
         }
 
         @media @mobile {
-            font-size: 3rem;
+            font-size: 4.5rem;
         }
         
     }
       
-    .mouseIcon {
-        width: 50px;
-        height: 50px;
-        margin-left: 1%;
+    // .mouseIcon {
+    //     width: 50px;
+    //     height: 50px;
+    //     margin-left: 1%;
 
-        @media @tablet {
-            display: none;
-        }
-    }
+    //     @media @tablet {
+    //         display: none;
+    //     }
+    // }
 
     p {
-        font-size: 80%;
+        font-size: 3.5rem;
         margin-bottom: 1%;
         text-shadow: 1px 1px #222528, 0 0 1em #222528, 0 0 0.2em #222528;
-        line-height: 3rem;
+        line-height: 4rem;
 
         @media @tablet {
-            font-size: 1.1rem;
-            line-height: 1.7rem;
+            font-size: 1.9rem;
+            line-height: 2.5rem;
         }
 
         @media @mobile {
-            font-size: 0.8rem;
-            line-height: 1rem;
+            font-size: 1.5rem;
+            line-height: 2rem;
         }
     }
 
     a {
         color: dodgerblue;
+        font-size: 6rem;
 
         @media @tablet {
-            font-size: 2.5rem;
+            font-size: 4rem;
         }
         
         @media @mobile {
-            font-size: 1rem;
+            font-size: 3rem;
         }
     }
 
@@ -112,115 +110,115 @@
 
 
 
-.github-section {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 1% 0;
-    background-image: linear-gradient(darkred, #fff, #fff, #fff);
+// .github-section {
+//     display: flex;
+//     justify-content: space-evenly;
+//     padding: 1% 0;
+//     background-image: linear-gradient(darkred, #fff, #fff, #fff);
 
-    h4 {
-        width: 100%;
-        font-size: 1.8rem;
-    }
+//     h4 {
+//         width: 100%;
+//         font-size: 1.8rem;
+//     }
 
-    h5 {
-        width: 100%;
-        font-size: 1rem;
-    }
+//     h5 {
+//         width: 100%;
+//         font-size: 1rem;
+//     }
 
-    h6 {
-        width: 100%;
-        font-size: 1rem;
-    }
+//     h6 {
+//         width: 100%;
+//         font-size: 1rem;
+//     }
 
-    div {
-        width: 30%;
-        border-radius: 30px;
-    }
+//     div {
+//         width: 30%;
+//         border-radius: 30px;
+//     }
 
-    form {
-        background-color: firebrick;
-    }
+//     form {
+//         background-color: firebrick;
+//     }
 
-    .github-section-left {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+//     .github-section-left {
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//     }
 
-    .github-section-left img {
-        padding: 20%;
+//     .github-section-left img {
+//         padding: 20%;
 
-    }
+//     }
 
-    .github-info-p1 {
-        width: 50%;
-    }
+//     .github-info-p1 {
+//         width: 50%;
+//     }
         
-    .github-info-p2 {
-        width: 55%;
-    }
+//     .github-info-p2 {
+//         width: 55%;
+//     }
 
-    .github-info-p3 {
-        width: 60%;
-    }
+//     .github-info-p3 {
+//         width: 60%;
+//     }
 
-    .github-info-p4 {
-        width: 65%;
-    }
+//     .github-info-p4 {
+//         width: 65%;
+//     }
 
-    .github-info-p5 {
-        width: 70%;
-        margin-bottom: 1%;
-    }
+//     .github-info-p5 {
+//         width: 70%;
+//         margin-bottom: 1%;
+//     }
 
-    .github-profile {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        font-size: 1.5rem;
-        border: 2px solid black;
-    }
+//     .github-profile {
+//         display: flex;
+//         flex-direction: column;
+//         justify-content: center;
+//         align-items: center;
+//         font-size: 1.5rem;
+//         border: 2px solid black;
+//     }
 
-    .github-profile img {
-        width: 50%;
-    }
+//     .github-profile img {
+//         width: 50%;
+//     }
 
 
-    .followers-container {
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
+//     .followers-container {
+//         width: 100%;
+//         display: flex;
+//         flex-wrap: wrap;
+//         justify-content: space-between;
+//     }
         
-    .followers {
-        width: 33.33%;
-        background-color: purple;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: 1px solid black;
-        border-radius: 0;
-    }
+//     .followers {
+//         width: 33.33%;
+//         background-color: purple;
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+//         border: 1px solid black;
+//         border-radius: 0;
+//     }
         
-    .followers img {
-        width: 30%;
-        margin: 5% 0;
-        border-radius: 100px;
-    }
+//     .followers img {
+//         width: 30%;
+//         margin: 5% 0;
+//         border-radius: 100px;
+//     }
 
-    .github-info {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: flex-end;
-        background-color: white;
-    }
+//     .github-info {
+//         display: flex;
+//         flex-direction: column;
+//         justify-content: space-between;
+//         align-items: flex-end;
+//         background-color: white;
+//     }
 
-    .github-info p {
-        text-align: start;
-        border-bottom: 2px solid black;
-    }
-}
+//     .github-info p {
+//         text-align: start;
+//         border-bottom: 2px solid black;
+//     }
+// }

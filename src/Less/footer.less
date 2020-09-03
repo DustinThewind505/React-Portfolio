@@ -41,14 +41,10 @@ footer {
 
             @media @tablet {
                 width: 70%;
-                height: 30px;
-                margin: 0 0 0 10%;
             }
 
             @media @mobile {
                 width: 80%;
-                height:22px;
-                margin: 0 0 0 10%;
             }
         }
 
@@ -69,14 +65,13 @@ footer {
 
         @media @mobile {
             width: 90%;
-            font-size: 1rem;
         }
 
         small {
-            font-size: 0.8rem;
+            font-size: 1.2rem;
     
             @media @mobile {
-                font-size: 0.9rem;
+                font-size: 1rem;
                 font-weight: bold;
             }
         }    
@@ -128,8 +123,7 @@ footer {
 
         a {
             width: 70%;
-            text-align: center;
-            padding-top: 2%;
+            padding: 0.9% 0;
         }
 
         a:hover {
@@ -146,7 +140,8 @@ footer {
     }
 
     #codesandbox-logo {
-        width: 35%;
-        text-align: center;
+        @media @tablet {
+            display: none;
+        }
     }
 }
