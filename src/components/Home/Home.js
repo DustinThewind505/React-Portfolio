@@ -13,14 +13,16 @@ const Home = () => {
         <Fragment>
             <div className="home">
                 <div className="home-header">
-                    <h1><span className="cursive">DustinGuillen</span>.dev</h1>
+                    <div>
+                        <h1><span className="cursive">DustinGuillen</span>.dev</h1>
+                    </div>
                     <p>Web Developer passionate about Pixel Perfect Design, making Scalable Sites, and writing Clean code.</p>
                     <NavLink to="/app/about/">Explore</NavLink>
                 </div>
                 {/* <Technologies /> */}
             </div>
             {/* <Navigation /> */}
-            <Footer/>
+            <Footer />
         </Fragment>
     )
 }
