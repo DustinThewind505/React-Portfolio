@@ -29,39 +29,26 @@
     h2 {
         display: flex;
         align-items: center;
-        font-size: 4rem;
+        font-size: 11rem;
+
+        @media @tablet {
+            font-size: 10rem;
+        }
 
         @media @mobile {
             display: none;
         }
     }
 
-    .mobile-svg {
-        display: none;
-        z-index: 1;
-
-        @media @mobile {
-            font-size: 3.7rem;
-            padding: 2%;
-            margin-bottom: 2%;
-            display: flex;
-            justify-content: center;
-        }
-
-        svg {
-            width: 11.5%;
-            margin-bottom: 5%;
-        }
-    }
-
     p {
         width: 90%;
         padding: 2%;
-        line-height: 1.7rem;
-        font-size: 1.3rem;
+        line-height: 4rem;
+        font-size: 2.7rem;
 
         @media @tablet {
-            font-size: 1.1rem;
+            font-size: 2rem;
+            line-height: 2.5rem;
         }
 
         @media @mobile {
@@ -69,11 +56,27 @@
         }
 
         span {
-            font-size: 1.8rem;
+            font-size: 4rem;
             
             @media @tablet {
-                font-size: 1.4rem;
+                font-size: 2.2rem;
             }
+        }
+    }
+
+    strong {
+        font-size: 2.7rem;
+
+        @media @tablet {
+            font-size: 2.1rem;
+        }
+    }
+
+    u {
+        font-size: 2.7rem;
+
+        @media @tablet {
+            font-size: 2.1rem;
         }
     }
 
@@ -86,10 +89,29 @@
         }
     }
 
+    .mobile-svg {
+        display: none;
+        z-index: 1;
+
+        @media @mobile {
+            font-size: 7rem;
+            padding: 2%;
+            margin-bottom: 5%;
+            display: flex;
+            justify-content: center;
+        }
+
+        svg {
+            width: 11.5%;
+            margin-bottom: 5%;
+        }
+    }
+
     .about-section-left {
+        width: 70%;
         
         @media @tablet {
-            width: 50%;
+            width: 60%;
             background-color: none;
         }
 
@@ -103,12 +125,12 @@
     }
 
     .about-section-right {
-        width: 50%;
+        width: 30%;
         display: flex;
         align-items: center;
 
         @media @tablet {
-
+            width: 40%;
         }
 
         @media @mobile {
