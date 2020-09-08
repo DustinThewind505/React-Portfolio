@@ -811,7 +811,7 @@ footer .contact-links a:hover {
 }
 @media (max-width: 850px) {
   .about-section p {
-    font-size: 2rem;
+    font-size: 1.7rem;
     line-height: 2.5rem;
   }
 }
@@ -859,7 +859,7 @@ footer .contact-links a:hover {
 }
 @media (max-width: 500px) {
   .about-section .mobile-svg {
-    font-size: 7rem;
+    font-size: 8rem;
     padding: 2%;
     margin-bottom: 5%;
     display: flex;
@@ -961,7 +961,7 @@ footer .contact-links a:hover {
 }
 @media (max-width: 500px) {
   .projects-header-container .technologies h2 {
-    font-size: 3.5rem;
+    font-size: 8rem;
     justify-content: center;
     margin-bottom: 3%;
   }
@@ -971,12 +971,12 @@ footer .contact-links a:hover {
 }
 @media (max-width: 850px) {
   .projects-header-container .technologies p {
-    font-size: 0.95rem;
+    font-size: 1.5rem;
   }
 }
 @media (max-width: 500px) {
   .projects-header-container .technologies p {
-    font-size: 0.8rem;
+    font-size: 1.4rem;
   }
 }
 .projects-header-container .technologies .technologies-icons {
@@ -1019,7 +1019,7 @@ footer .contact-links a:hover {
 }
 @media (max-width: 850px) {
   .projects-header-container .technologies .technologies-left {
-    width: 60%;
+    width: 50%;
   }
 }
 @media (max-width: 500px) {
@@ -1093,6 +1093,12 @@ footer .contact-links a:hover {
   height: 40px;
   color: lawngreen;
 }
+@media (max-width: 850px) {
+  .projects .technologies-icons a {
+    width: 30px;
+    height: 30px;
+  }
+}
 @media (max-width: 500px) {
   .projects .technologies-icons a {
     width: 25px;
@@ -1118,13 +1124,14 @@ footer .contact-links a:hover {
 }
 @media (max-width: 850px) {
   .projects p {
-    font-size: 0.85rem;
-    padding-top: 5%;
+    font-size: 1.3rem;
   }
 }
 @media (max-width: 500px) {
   .projects p {
-    height: 50%;
+    padding-top: 9%;
+    font-size: 1.3rem;
+    height: 33%;
   }
 }
 .projects h2 {
@@ -1143,7 +1150,7 @@ footer .contact-links a:hover {
 @media (max-width: 500px) {
   .projects h2 {
     width: 95%;
-    font-size: 1.4rem;
+    font-size: 2rem;
     letter-spacing: 0.1rem;
   }
 }
@@ -1151,9 +1158,14 @@ footer .contact-links a:hover {
   color: white;
   font-size: 1.2rem;
 }
+@media (max-width: 850px) {
+  .projects small {
+    font-size: 1rem;
+  }
+}
 @media (max-width: 500px) {
   .projects small {
-    font-size: 0.5rem;
+    font-size: 0.9rem;
   }
 }
 .projects .demo-button {
@@ -1166,6 +1178,11 @@ footer .contact-links a:hover {
   font-size: 1.5rem;
   font-weight: 600;
   text-decoration: none;
+}
+@media (max-width: 850px) {
+  .projects .demo-button {
+    font-size: 1.1rem;
+  }
 }
 .projects .demo-button:hover {
   background-color: darkgoldenrod;
