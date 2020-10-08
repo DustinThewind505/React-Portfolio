@@ -11,7 +11,7 @@ const Footer = props => {
                 </div>
                 <div class="footer-middle">
                     <img class="zia-img" src="/images/zia-symbol-red-on-yellow.png" alt="New Mexico state flag" />
-                    <small>&copy; Copyright 2020 | Dustin Guillen</small>
+                    <small>&copy;reated by Dustin Guillen | 2020</small>
                 </div>
                 <div class="footer-right">
                     <nav class="contact-links">
