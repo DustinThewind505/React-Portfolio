@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 
-import Navigation from './Navigation'
+import Navigation from './components/navigation'
 
 const Header = props => {
 

@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 import { render, getAllByTestId } from '@testing-library/react';
 
 import App from './App';
-import Header from './components/Header';
+import Header from './components/header';
 import Card from './components/About/Card';
 
 test('Testing to see if tests works', () => {

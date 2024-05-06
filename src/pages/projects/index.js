@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 
-import Technologies from '../../Home/Technologies';
+import Technologies from './components/technologies.js';
 
 const ProjectsComponent = () => {
 

@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 
-import Bio from './Bio';
+import Bio from './components/about';
 
 
 const AboutComponent = () => {
