@@ -7,7 +7,7 @@ import About from './pages/about'
 import Projects from './pages/projects'
 import Footer from './components/footer';
 
-import './css/index.css';
+import './styles/css/index.css';
 
 
 
